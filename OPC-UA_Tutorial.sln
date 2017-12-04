@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OPC-UA_Tutorial", "OPC-UA_Tutorial.csproj", "{481A11B3-DB9A-0D3C-DE81-CE00B4C3FDA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OPC-UA_Tutorial.Editor", "OPC-UA_Tutorial.Editor.csproj", "{7CC7549B-D1E4-2987-5A31-A592A3A69F3F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{481A11B3-DB9A-0D3C-DE81-CE00B4C3FDA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{481A11B3-DB9A-0D3C-DE81-CE00B4C3FDA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{481A11B3-DB9A-0D3C-DE81-CE00B4C3FDA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{481A11B3-DB9A-0D3C-DE81-CE00B4C3FDA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CC7549B-D1E4-2987-5A31-A592A3A69F3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CC7549B-D1E4-2987-5A31-A592A3A69F3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CC7549B-D1E4-2987-5A31-A592A3A69F3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CC7549B-D1E4-2987-5A31-A592A3A69F3F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
