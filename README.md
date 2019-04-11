@@ -121,7 +121,7 @@ Now build the project in a new folder within the project named "App".
 After compiling open the created solution file.(sls) with Visual Studio.
 
 In the Solution Explorer open the "project.json" file and change the code to the following:
-
+```
 {
   "dependencies": {
     "Microsoft.ApplicationInsights": "1.0.0",
@@ -147,7 +147,7 @@ In the Solution Explorer open the "project.json" file and change the code to the
     "win10-x64-aot": {}
   }
 }
-
+```
 Build the project. 
 
 You can test it on the Local Machine or the Device. Make sure you have a working OPC Server, otherwise there will be errors.
