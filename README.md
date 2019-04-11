@@ -6,9 +6,7 @@ This Project has been developed as a students project of the Hochschule Darmstad
 an OPC UA Sample Client. Designed to be used with a Microsoft HoloLens.
 Code is based on the Sample Client of the OPC Foundation: https://github.com/OPCFoundation/UA-.NETStandard
 
-## Getting Started
-
-Creating a Hololens OPC Client
+## Getting Started: Creating a Hololens OPC Client
 
 by C. Malauschek
 
@@ -17,7 +15,7 @@ The steps to build a Hololens application with OPC functionality include the fol
 - create a Unity project for hologram functionality
 - build the UWP app of the Unity solution with Visual Studio
 
-Create the DLL
+### Create the DLL
 
 Download and install the newest Version of Visual Studio.
 Make sure you install the following components: 
@@ -52,7 +50,6 @@ It should look like this:
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
-
 You can download the OPC Foundation library with NuGet, a package manager.
 In Visual Studio open the NuGet Manager.
 Right-Click on project -> Manage NuuGet Packages.
@@ -68,7 +65,7 @@ For a simple OPC client use the code in the appendix (sample_client.cs)
 
 You can now build the project and the DLL files are created in the "bin" folder of the project.
 
-Create the Unity Project
+### Create the Unity Project
 
 Download  Unity 2018.1.1f1  (there will be errors in newer versions) and create a new project.
 
@@ -119,7 +116,7 @@ In the "XR Settings" check "Virtual Reality Supported":
 Now build the project in a new folder within the project named "App".
 
 
-Create the UWP App
+### Create the UWP App
 
 After compiling open the created solution file.(sls) with Visual Studio.
 
@@ -156,7 +153,7 @@ Build the project.
 You can test it on the Local Machine or the Device. Make sure you have a working OPC Server, otherwise there will be errors.
 
 
-Annotation
+### Annotation
 
 I recomment to download the latest OPC Foundation Sample .Net Server and test it with that before you deploy on a real device ( https://github.com/OPCFoundation/UA-.NET-Legacy ).
 
