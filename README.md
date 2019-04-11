@@ -1,5 +1,5 @@
-{\rtf1\ansi\deff0\nouicompat{\fonttbl{\f0\fnil\fcharset0 Courier New;}{\f1\froman\fprq2\fcharset0 Times New Roman;}{\f2\froman\fprq2\fcharset0 Consolas;}}
-{\colortbl ;\red0\green0\blue0;\red255\green255\blue255;\red46\green117\blue182;\red163\green21\blue21;\red0\green0\blue255;}
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat{\fonttbl{\f0\fnil\fcharset0 Courier New;}{\f1\froman\fprq2\fcharset0 Times New Roman;}{\f2\froman\fprq2\fcharset0 Consolas;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;\red255\green255\blue255;\red46\green117\blue182;\red163\green21\blue21;}
 {\*\generator Riched20 10.0.17134}\viewkind4\uc1 
 \pard\f0\fs22\lang1031 # OPC-UA_Unity\par
 Disclamer: Project is depricated and doesn't seem to work anymore!\par
@@ -7,9 +7,10 @@ Disclamer: Project is depricated and doesn't seem to work anymore!\par
 ## Overview\par
 This Project has been developed as a students project of the Hochschule Darmstadt.\par
 an OPC UA Sample Client. Designed to be used with a Microsoft HoloLens.\par
-Code is based on the Sample Client of the OPC Foundation: https://github.com/OPCFoundation/UA-.NETStandard\par
+Code is based on the Sample Client of the OPC Foundation: {{\field{\*\fldinst{HYPERLINK https://github.com/OPCFoundation/UA-.NETStandard }}{\fldrslt{https://github.com/OPCFoundation/UA-.NETStandard\ul0\cf0}}}}\f0\fs22\par
 \par
 ## Getting Started\par
+\par
 
 \pard\nowidctlpar\hyphpar0\kerning1\ul\b\f1\fs32\lang255 Creating a Hololens OPC Client\par
 \ulnone\b0\fs24\par
@@ -64,7 +65,7 @@ In the "Browse" tab searsch for "OPC" and download "OPCFoundation.NetStandard.Op
 \par
 Your project should now  look like this:\par
 \par
-![alt text](https://github.com/RobinFischer/OPC-UA_Unity/blob/OPC-UA_Unity2018.1.1f1/doc/image_1.png "image_1")\par
+![alt text]({{\field{\*\fldinst{HYPERLINK https://github.com/RobinFischer/OPC-UA_Unity/blob/OPC-UA_Unity2018.1.1f1/doc/image_1.png }}{\fldrslt{https://github.com/RobinFischer/OPC-UA_Unity/blob/OPC-UA_Unity2018.1.1f1/doc/image_1.png\ul0\cf0}}}}\f1\fs24  "image_1")\par
 \par
 You can now write your code into the Class1.cs created within the project. \par
 For a simple OPC client use the code in the appendix (sample_client.cs)\par
@@ -80,11 +81,11 @@ Create two subfolders, "net46" and "netstandard1.4". Paste your created  DLLs in
 \par
 Select all files within the \b "net46" \b0 folder and in the Inspector window check to only include platforms "Editor" and "Standalone". It should look like this:\par
 \par
-![alt text](https://github.com/RobinFischer/OPC-UA_Unity/blob/OPC-UA_Unity2018.1.1f1/doc/image_2.png "image_2")\par
+![alt text]({{\field{\*\fldinst{HYPERLINK https://github.com/RobinFischer/OPC-UA_Unity/blob/OPC-UA_Unity2018.1.1f1/doc/image_2.png }}{\fldrslt{https://github.com/RobinFischer/OPC-UA_Unity/blob/OPC-UA_Unity2018.1.1f1/doc/image_2.png\ul0\cf0}}}}\f1\fs24  "image_2")\par
 \par
 Select all files within the \b "netstandard1.4" \b0 folder and in the Inspector window check to only include platforms "WSAPlayer" and the "Don't process" box. It should look like this:\par
 \par
-![alt text](https://github.com/RobinFischer/OPC-UA_Unity/blob/OPC-UA_Unity2018.1.1f1/doc/image_3.png "image_3")\par
+![alt text]({{\field{\*\fldinst{HYPERLINK https://github.com/RobinFischer/OPC-UA_Unity/blob/OPC-UA_Unity2018.1.1f1/doc/image_3.png }}{\fldrslt{https://github.com/RobinFischer/OPC-UA_Unity/blob/OPC-UA_Unity2018.1.1f1/doc/image_3.png\ul0\cf0}}}}\f1\fs24  "image_3")\par
 \par
 Create a new GameObject in the Scene.\par
 Right-Click in "Hierarchy" window -> Create Empty\par
@@ -103,21 +104,21 @@ Add the script to the empty game object.\par
 - Select the latest Windows 10 SDK.\par
 It should look similiar to this: \par
 \par
-![alt text](https://github.com/RobinFischer/OPC-UA_Unity/blob/OPC-UA_Unity2018.1.1f1/doc/image_4.png "image_4")\par
+![alt text]({{\field{\*\fldinst{HYPERLINK https://github.com/RobinFischer/OPC-UA_Unity/blob/OPC-UA_Unity2018.1.1f1/doc/image_4.png }}{\fldrslt{https://github.com/RobinFischer/OPC-UA_Unity/blob/OPC-UA_Unity2018.1.1f1/doc/image_4.png\ul0\cf0}}}}\f1\fs24  "image_4")\par
 \par
 Open the Player Settings.\par
 \par
 In the "Other Settings" tab make sure to configure like this:\par
 \par
-![alt text](https://github.com/RobinFischer/OPC-UA_Unity/blob/OPC-UA_Unity2018.1.1f1/doc/image_5.png "image_5")\par
+![alt text]({{\field{\*\fldinst{HYPERLINK https://github.com/RobinFischer/OPC-UA_Unity/blob/OPC-UA_Unity2018.1.1f1/doc/image_5.png }}{\fldrslt{https://github.com/RobinFischer/OPC-UA_Unity/blob/OPC-UA_Unity2018.1.1f1/doc/image_5.png\ul0\cf0}}}}\f1\fs24  "image_5")\par
 \par
 In the "Publishing Settings" check the following boxes:\par
 \par
-![alt text](https://github.com/RobinFischer/OPC-UA_Unity/blob/OPC-UA_Unity2018.1.1f1/doc/image_6.png "image_6")\par
+![alt text]({{\field{\*\fldinst{HYPERLINK https://github.com/RobinFischer/OPC-UA_Unity/blob/OPC-UA_Unity2018.1.1f1/doc/image_6.png }}{\fldrslt{https://github.com/RobinFischer/OPC-UA_Unity/blob/OPC-UA_Unity2018.1.1f1/doc/image_6.png\ul0\cf0}}}}\f1\fs24  "image_6")\par
 \par
 In the "XR Settings" check "Virtual Reality Supported": \par
 \par
-![alt text](https://github.com/RobinFischer/OPC-UA_Unity/blob/OPC-UA_Unity2018.1.1f1/doc/image_7.png "image_7")\par
+![alt text]({{\field{\*\fldinst{HYPERLINK https://github.com/RobinFischer/OPC-UA_Unity/blob/OPC-UA_Unity2018.1.1f1/doc/image_7.png }}{\fldrslt{https://github.com/RobinFischer/OPC-UA_Unity/blob/OPC-UA_Unity2018.1.1f1/doc/image_7.png\ul0\cf0}}}}\f1\fs24  "image_7")\par
 \par
 Now build the project in a new folder within the project named "App".\par
 \par
@@ -130,31 +131,31 @@ After compiling open the created solution file.(sls) with Visual Studio.\par
 \par
 In the Solution Explorer open the "project.json" file and change the code to the following:\par
 \par
-\cf1\highlight2\f2\fs19\{\cf0\highlight0\f1\fs24\par
-\cf1\highlight2\f2\fs19   \cf3 "dependencies"\cf1 : \{\cf0\highlight0\f1\fs24\par
-\cf1\highlight2\f2\fs19     \cf3 "Microsoft.ApplicationInsights"\cf1 : \cf4 "1.0.0"\cf1 ,\cf0\highlight0\f1\fs24\par
-\cf1\highlight2\f2\fs19     \cf3 "Microsoft.ApplicationInsights.PersistenceChannel"\cf1 : \cf4 "1.0.0"\cf1 ,\cf0\highlight0\f1\fs24\par
-\cf1\highlight2\f2\fs19     \cf3 "Microsoft.ApplicationInsights.WindowsApps"\cf1 : \cf4 "1.0.0"\cf1 ,\cf0\highlight0\f1\fs24\par
-\cf1\highlight2\f2\fs19     \cf3 "Microsoft.NETCore.UniversalWindowsPlatform"\cf1 : \cf4 "5.2.3"\cf1 ,\cf0\highlight0\f1\fs24\par
-\cf1\highlight2\f2\fs19     \cf3 "Newtonsoft.Json"\cf1 : \cf4 "10.0.3"\cf1 ,\cf0\highlight0\f1\fs24\par
-\cf1\highlight2\f2\fs19     \cf3 "Portable.BouncyCastle"\cf1 : \cf4 "1.8.1.3"\cf1 ,\cf0\highlight0\f1\fs24\par
-\cf1\highlight2\f2\fs19     \cf3 "System.Data.Common"\cf1 : \cf4 "4.3.0"\cf1 ,\cf0\highlight0\f1\fs24\par
-\cf1\highlight2\f2\fs19     \cf3 "System.Private.ServiceModel"\cf1 : \cf4 "4.3.0"\cf1 ,\cf0\highlight0\f1\fs24\par
-\cf1\highlight2\f2\fs19     \cf3 "System.ServiceModel.Primitives"\cf1 : \cf4 "4.3.0"\cf0\highlight0\f1\fs24\par
-\cf1\highlight2\f2\fs19   \},\cf0\highlight0\f1\fs24\par
-\cf1\highlight2\f2\fs19   \},\cf0\highlight0\f1\fs24\par
-\cf1\highlight2\f2\fs19   \cf4 "frameworks"\cf1 : \{\cf0\highlight0\f1\fs24\par
-\cf1\highlight2\f2\fs19     \cf3 "uap10.0"\cf1 : \{\}\cf0\highlight0\f1\fs24\par
-\cf1\highlight2\f2\fs19   \},\cf0\highlight0\f1\fs24\par
-\cf1\highlight2\f2\fs19   \cf4 "runtimes"\cf1 : \{\cf0\highlight0\f1\fs24\par
-\cf1\highlight2\f2\fs19     \cf3 "win10-arm"\cf1 : \{\},\cf0\highlight0\f1\fs24\par
-\cf1\highlight2\f2\fs19     \cf3 "win10-arm-aot"\cf1 : \{\},\cf0\highlight0\f1\fs24\par
-\cf1\highlight2\f2\fs19     \cf3 "win10-x86"\cf1 : \{\},\cf0\highlight0\f1\fs24\par
-\cf1\highlight2\f2\fs19     \cf3 "win10-x86-aot"\cf1 : \{\},\cf0\highlight0\f1\fs24\par
-\cf1\highlight2\f2\fs19     \cf3 "win10-x64"\cf1 : \{\},\cf0\highlight0\f1\fs24\par
-\cf1\highlight2\f2\fs19     \cf3 "win10-x64-aot"\cf1 : \{\}\cf0\highlight0\f1\fs24\par
-\cf1\highlight2\f2\fs19   \}\cf0\highlight0\f1\fs24\par
-\cf1\highlight2\f2\fs19\}\cf0\highlight0\f1\fs24\par
+\cf2\highlight3\f2\fs19\{\cf0\highlight0\f1\fs24\par
+\cf2\highlight3\f2\fs19   \cf4 "dependencies"\cf2 : \{\cf0\highlight0\f1\fs24\par
+\cf2\highlight3\f2\fs19     \cf4 "Microsoft.ApplicationInsights"\cf2 : \cf5 "1.0.0"\cf2 ,\cf0\highlight0\f1\fs24\par
+\cf2\highlight3\f2\fs19     \cf4 "Microsoft.ApplicationInsights.PersistenceChannel"\cf2 : \cf5 "1.0.0"\cf2 ,\cf0\highlight0\f1\fs24\par
+\cf2\highlight3\f2\fs19     \cf4 "Microsoft.ApplicationInsights.WindowsApps"\cf2 : \cf5 "1.0.0"\cf2 ,\cf0\highlight0\f1\fs24\par
+\cf2\highlight3\f2\fs19     \cf4 "Microsoft.NETCore.UniversalWindowsPlatform"\cf2 : \cf5 "5.2.3"\cf2 ,\cf0\highlight0\f1\fs24\par
+\cf2\highlight3\f2\fs19     \cf4 "Newtonsoft.Json"\cf2 : \cf5 "10.0.3"\cf2 ,\cf0\highlight0\f1\fs24\par
+\cf2\highlight3\f2\fs19     \cf4 "Portable.BouncyCastle"\cf2 : \cf5 "1.8.1.3"\cf2 ,\cf0\highlight0\f1\fs24\par
+\cf2\highlight3\f2\fs19     \cf4 "System.Data.Common"\cf2 : \cf5 "4.3.0"\cf2 ,\cf0\highlight0\f1\fs24\par
+\cf2\highlight3\f2\fs19     \cf4 "System.Private.ServiceModel"\cf2 : \cf5 "4.3.0"\cf2 ,\cf0\highlight0\f1\fs24\par
+\cf2\highlight3\f2\fs19     \cf4 "System.ServiceModel.Primitives"\cf2 : \cf5 "4.3.0"\cf0\highlight0\f1\fs24\par
+\cf2\highlight3\f2\fs19   \},\cf0\highlight0\f1\fs24\par
+\cf2\highlight3\f2\fs19   \},\cf0\highlight0\f1\fs24\par
+\cf2\highlight3\f2\fs19   \cf5 "frameworks"\cf2 : \{\cf0\highlight0\f1\fs24\par
+\cf2\highlight3\f2\fs19     \cf4 "uap10.0"\cf2 : \{\}\cf0\highlight0\f1\fs24\par
+\cf2\highlight3\f2\fs19   \},\cf0\highlight0\f1\fs24\par
+\cf2\highlight3\f2\fs19   \cf5 "runtimes"\cf2 : \{\cf0\highlight0\f1\fs24\par
+\cf2\highlight3\f2\fs19     \cf4 "win10-arm"\cf2 : \{\},\cf0\highlight0\f1\fs24\par
+\cf2\highlight3\f2\fs19     \cf4 "win10-arm-aot"\cf2 : \{\},\cf0\highlight0\f1\fs24\par
+\cf2\highlight3\f2\fs19     \cf4 "win10-x86"\cf2 : \{\},\cf0\highlight0\f1\fs24\par
+\cf2\highlight3\f2\fs19     \cf4 "win10-x86-aot"\cf2 : \{\},\cf0\highlight0\f1\fs24\par
+\cf2\highlight3\f2\fs19     \cf4 "win10-x64"\cf2 : \{\},\cf0\highlight0\f1\fs24\par
+\cf2\highlight3\f2\fs19     \cf4 "win10-x64-aot"\cf2 : \{\}\cf0\highlight0\f1\fs24\par
+\cf2\highlight3\f2\fs19   \}\cf0\highlight0\f1\fs24\par
+\cf2\highlight3\f2\fs19\}\cf0\highlight0\f1\fs24\par
 \par
 Build the project. \par
 \par
@@ -163,7 +164,7 @@ You can test it on the Local Machine or the Device. Make sure you have a working
 \par
 \b\fs28 Annotation\b0\fs24\par
 \b\fs28\par
-\b0\fs24 I recomment to download the latest OPC Foundation Sample .Net Server and test it with that before you deploy on a real device ( https://github.com/OPCFoundation/UA-.NET-Legacy ).\par
+\b0\fs24 I recomment to download the latest OPC Foundation Sample .Net Server and test it with that before you deploy on a real device ( {{\field{\*\fldinst{HYPERLINK https://github.com/OPCFoundation/UA-.NET-Legacy }}{\fldrslt{https://github.com/OPCFoundation/UA-.NET-Legacy\ul0\cf0}}}}\f1\fs24  ).\par
 \par
 Due to the DLL workaround in Unity it is not possible to use propper console funktions for debugging purposes. \par
 In addition if you want to change something in the functionality of the client it has to be done in the DLL, thus it is a huge build cycle involved everytime. \par
