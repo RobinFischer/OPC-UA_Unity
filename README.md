@@ -155,7 +155,7 @@ You can test it on the Local Machine or the Device. Make sure you have a working
 
 ### Annotation
 
-I recomment to download the latest OPC Foundation Sample .Net Server and test it with that before you deploy on a real device ( https://github.com/OPCFoundation/UA-.NET-Legacy ).
+I recomment to download the latest OPC Foundation Sample .Net Server and test it with that before you deploy on a real device ( https://github.com/OPCFoundation/UA-.NETStandard ).
 
 Due to the DLL workaround in Unity it is not possible to use propper console funktions for debugging purposes. 
 In addition if you want to change something in the functionality of the client it has to be done in the DLL, thus it is a huge build cycle involved everytime. 
