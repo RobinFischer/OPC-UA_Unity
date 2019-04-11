@@ -2,6 +2,40 @@
   "version": 2,
   "targets": {
     "UAP,Version=v10.0": {
+      "Microsoft.ApplicationInsights/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/portable-win81+wpa81/Microsoft.ApplicationInsights.dll": {}
+        },
+        "runtime": {
+          "lib/portable-win81+wpa81/Microsoft.ApplicationInsights.dll": {}
+        }
+      },
+      "Microsoft.ApplicationInsights.PersistenceChannel/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.ApplicationInsights": "1.0.0"
+        },
+        "compile": {
+          "lib/portable-win81+wpa81/Microsoft.ApplicationInsights.PersistenceChannel.dll": {}
+        },
+        "runtime": {
+          "lib/portable-win81+wpa81/Microsoft.ApplicationInsights.PersistenceChannel.dll": {}
+        }
+      },
+      "Microsoft.ApplicationInsights.WindowsApps/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.ApplicationInsights": "1.0.0",
+          "Microsoft.ApplicationInsights.PersistenceChannel": "1.0.0"
+        },
+        "compile": {
+          "lib/win81/Microsoft.ApplicationInsights.Extensibility.Windows.dll": {}
+        },
+        "runtime": {
+          "lib/win81/Microsoft.ApplicationInsights.Extensibility.Windows.dll": {}
+        }
+      },
       "Microsoft.CSharp/4.0.0": {
         "type": "package",
         "dependencies": {
@@ -1886,6 +1920,40 @@
       }
     },
     "UAP,Version=v10.0/win10-arm": {
+      "Microsoft.ApplicationInsights/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/portable-win81+wpa81/Microsoft.ApplicationInsights.dll": {}
+        },
+        "runtime": {
+          "lib/portable-win81+wpa81/Microsoft.ApplicationInsights.dll": {}
+        }
+      },
+      "Microsoft.ApplicationInsights.PersistenceChannel/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.ApplicationInsights": "1.0.0"
+        },
+        "compile": {
+          "lib/portable-win81+wpa81/Microsoft.ApplicationInsights.PersistenceChannel.dll": {}
+        },
+        "runtime": {
+          "lib/portable-win81+wpa81/Microsoft.ApplicationInsights.PersistenceChannel.dll": {}
+        }
+      },
+      "Microsoft.ApplicationInsights.WindowsApps/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.ApplicationInsights": "1.0.0",
+          "Microsoft.ApplicationInsights.PersistenceChannel": "1.0.0"
+        },
+        "compile": {
+          "lib/win81/Microsoft.ApplicationInsights.Extensibility.Windows.dll": {}
+        },
+        "runtime": {
+          "lib/win81/Microsoft.ApplicationInsights.Extensibility.Windows.dll": {}
+        }
+      },
       "Microsoft.CSharp/4.0.0": {
         "type": "package",
         "dependencies": {
@@ -3627,6 +3695,40 @@
       }
     },
     "UAP,Version=v10.0/win10-arm-aot": {
+      "Microsoft.ApplicationInsights/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/portable-win81+wpa81/Microsoft.ApplicationInsights.dll": {}
+        },
+        "runtime": {
+          "lib/portable-win81+wpa81/Microsoft.ApplicationInsights.dll": {}
+        }
+      },
+      "Microsoft.ApplicationInsights.PersistenceChannel/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.ApplicationInsights": "1.0.0"
+        },
+        "compile": {
+          "lib/portable-win81+wpa81/Microsoft.ApplicationInsights.PersistenceChannel.dll": {}
+        },
+        "runtime": {
+          "lib/portable-win81+wpa81/Microsoft.ApplicationInsights.PersistenceChannel.dll": {}
+        }
+      },
+      "Microsoft.ApplicationInsights.WindowsApps/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.ApplicationInsights": "1.0.0",
+          "Microsoft.ApplicationInsights.PersistenceChannel": "1.0.0"
+        },
+        "compile": {
+          "lib/win81/Microsoft.ApplicationInsights.Extensibility.Windows.dll": {}
+        },
+        "runtime": {
+          "lib/win81/Microsoft.ApplicationInsights.Extensibility.Windows.dll": {}
+        }
+      },
       "Microsoft.CSharp/4.0.0": {
         "type": "package",
         "dependencies": {
@@ -5331,6 +5433,40 @@
       }
     },
     "UAP,Version=v10.0/win10-x64": {
+      "Microsoft.ApplicationInsights/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/portable-win81+wpa81/Microsoft.ApplicationInsights.dll": {}
+        },
+        "runtime": {
+          "lib/portable-win81+wpa81/Microsoft.ApplicationInsights.dll": {}
+        }
+      },
+      "Microsoft.ApplicationInsights.PersistenceChannel/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.ApplicationInsights": "1.0.0"
+        },
+        "compile": {
+          "lib/portable-win81+wpa81/Microsoft.ApplicationInsights.PersistenceChannel.dll": {}
+        },
+        "runtime": {
+          "lib/portable-win81+wpa81/Microsoft.ApplicationInsights.PersistenceChannel.dll": {}
+        }
+      },
+      "Microsoft.ApplicationInsights.WindowsApps/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.ApplicationInsights": "1.0.0",
+          "Microsoft.ApplicationInsights.PersistenceChannel": "1.0.0"
+        },
+        "compile": {
+          "lib/win81/Microsoft.ApplicationInsights.Extensibility.Windows.dll": {}
+        },
+        "runtime": {
+          "lib/win81/Microsoft.ApplicationInsights.Extensibility.Windows.dll": {}
+        }
+      },
       "Microsoft.CSharp/4.0.0": {
         "type": "package",
         "dependencies": {
@@ -7079,6 +7215,40 @@
       }
     },
     "UAP,Version=v10.0/win10-x64-aot": {
+      "Microsoft.ApplicationInsights/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/portable-win81+wpa81/Microsoft.ApplicationInsights.dll": {}
+        },
+        "runtime": {
+          "lib/portable-win81+wpa81/Microsoft.ApplicationInsights.dll": {}
+        }
+      },
+      "Microsoft.ApplicationInsights.PersistenceChannel/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.ApplicationInsights": "1.0.0"
+        },
+        "compile": {
+          "lib/portable-win81+wpa81/Microsoft.ApplicationInsights.PersistenceChannel.dll": {}
+        },
+        "runtime": {
+          "lib/portable-win81+wpa81/Microsoft.ApplicationInsights.PersistenceChannel.dll": {}
+        }
+      },
+      "Microsoft.ApplicationInsights.WindowsApps/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.ApplicationInsights": "1.0.0",
+          "Microsoft.ApplicationInsights.PersistenceChannel": "1.0.0"
+        },
+        "compile": {
+          "lib/win81/Microsoft.ApplicationInsights.Extensibility.Windows.dll": {}
+        },
+        "runtime": {
+          "lib/win81/Microsoft.ApplicationInsights.Extensibility.Windows.dll": {}
+        }
+      },
       "Microsoft.CSharp/4.0.0": {
         "type": "package",
         "dependencies": {
@@ -8783,6 +8953,40 @@
       }
     },
     "UAP,Version=v10.0/win10-x86": {
+      "Microsoft.ApplicationInsights/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/portable-win81+wpa81/Microsoft.ApplicationInsights.dll": {}
+        },
+        "runtime": {
+          "lib/portable-win81+wpa81/Microsoft.ApplicationInsights.dll": {}
+        }
+      },
+      "Microsoft.ApplicationInsights.PersistenceChannel/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.ApplicationInsights": "1.0.0"
+        },
+        "compile": {
+          "lib/portable-win81+wpa81/Microsoft.ApplicationInsights.PersistenceChannel.dll": {}
+        },
+        "runtime": {
+          "lib/portable-win81+wpa81/Microsoft.ApplicationInsights.PersistenceChannel.dll": {}
+        }
+      },
+      "Microsoft.ApplicationInsights.WindowsApps/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.ApplicationInsights": "1.0.0",
+          "Microsoft.ApplicationInsights.PersistenceChannel": "1.0.0"
+        },
+        "compile": {
+          "lib/win81/Microsoft.ApplicationInsights.Extensibility.Windows.dll": {}
+        },
+        "runtime": {
+          "lib/win81/Microsoft.ApplicationInsights.Extensibility.Windows.dll": {}
+        }
+      },
       "Microsoft.CSharp/4.0.0": {
         "type": "package",
         "dependencies": {
@@ -10531,6 +10735,40 @@
       }
     },
     "UAP,Version=v10.0/win10-x86-aot": {
+      "Microsoft.ApplicationInsights/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/portable-win81+wpa81/Microsoft.ApplicationInsights.dll": {}
+        },
+        "runtime": {
+          "lib/portable-win81+wpa81/Microsoft.ApplicationInsights.dll": {}
+        }
+      },
+      "Microsoft.ApplicationInsights.PersistenceChannel/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.ApplicationInsights": "1.0.0"
+        },
+        "compile": {
+          "lib/portable-win81+wpa81/Microsoft.ApplicationInsights.PersistenceChannel.dll": {}
+        },
+        "runtime": {
+          "lib/portable-win81+wpa81/Microsoft.ApplicationInsights.PersistenceChannel.dll": {}
+        }
+      },
+      "Microsoft.ApplicationInsights.WindowsApps/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.ApplicationInsights": "1.0.0",
+          "Microsoft.ApplicationInsights.PersistenceChannel": "1.0.0"
+        },
+        "compile": {
+          "lib/win81/Microsoft.ApplicationInsights.Extensibility.Windows.dll": {}
+        },
+        "runtime": {
+          "lib/win81/Microsoft.ApplicationInsights.Extensibility.Windows.dll": {}
+        }
+      },
       "Microsoft.CSharp/4.0.0": {
         "type": "package",
         "dependencies": {
@@ -12236,13 +12474,66 @@
     }
   },
   "libraries": {
+    "Microsoft.ApplicationInsights/1.0.0": {
+      "sha512": "ssuClySnJd1B5YMA+qwzgW9/s2LocwAA9unrlu5EAV22GweLeeNl09sHCPfc94QpRHcWQA9vNn7TPGgfrut4bg==",
+      "type": "package",
+      "path": "microsoft.applicationinsights/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Microsoft.ApplicationInsights.XML",
+        "lib/net40/Microsoft.ApplicationInsights.dll",
+        "lib/net45/Microsoft.ApplicationInsights.XML",
+        "lib/net45/Microsoft.ApplicationInsights.dll",
+        "lib/portable-win81+wpa81/Microsoft.ApplicationInsights.XML",
+        "lib/portable-win81+wpa81/Microsoft.ApplicationInsights.dll",
+        "lib/wp8/Microsoft.ApplicationInsights.XML",
+        "lib/wp8/Microsoft.ApplicationInsights.dll",
+        "microsoft.applicationinsights.1.0.0.nupkg.sha512",
+        "microsoft.applicationinsights.nuspec"
+      ]
+    },
+    "Microsoft.ApplicationInsights.PersistenceChannel/1.0.0": {
+      "sha512": "o1Zu36OlnKjBwCfEOpsXRlADArs0SWE+c5q7HleQZS/0oKxHQhPK9beMwv8KCiZTNmug57NMD0uRF7tL08+h4w==",
+      "type": "package",
+      "path": "microsoft.applicationinsights.persistencechannel/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Microsoft.ApplicationInsights.PersistenceChannel.XML",
+        "lib/net40/Microsoft.ApplicationInsights.PersistenceChannel.dll",
+        "lib/portable-win8+wpa81/Microsoft.ApplicationInsights.PersistenceChannel.XML",
+        "lib/portable-win81+wpa81/Microsoft.ApplicationInsights.PersistenceChannel.dll",
+        "lib/wp8/Microsoft.ApplicationInsights.PersistenceChannel.XML",
+        "lib/wp8/Microsoft.ApplicationInsights.PersistenceChannel.dll",
+        "microsoft.applicationinsights.persistencechannel.1.0.0.nupkg.sha512",
+        "microsoft.applicationinsights.persistencechannel.nuspec"
+      ]
+    },
+    "Microsoft.ApplicationInsights.WindowsApps/1.0.0": {
+      "sha512": "lgUSf3ljCpqEuKGhhB5mA4LVPqhRVwJArlklb5/3MSGTJQIaHo49A7Bou9bCNg4/NrP8/3iR6GmqsRUImqzNHA==",
+      "type": "package",
+      "path": "microsoft.applicationinsights.windowsapps/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/win81/Microsoft.ApplicationInsights.Extensibility.Windows.XML",
+        "lib/win81/Microsoft.ApplicationInsights.Extensibility.Windows.dll",
+        "lib/wp8/Microsoft.ApplicationInsights.Extensibility.Windows.XML",
+        "lib/wp8/Microsoft.ApplicationInsights.Extensibility.Windows.dll",
+        "lib/wpa81/Microsoft.ApplicationInsights.Extensibility.Windows.XML",
+        "lib/wpa81/Microsoft.ApplicationInsights.Extensibility.Windows.dll",
+        "microsoft.applicationinsights.windowsapps.1.0.0.nupkg.sha512",
+        "microsoft.applicationinsights.windowsapps.nuspec"
+      ]
+    },
     "Microsoft.CSharp/4.0.0": {
-      "sha512": "oWqeKUxHXdK6dL2CFjgMcaBISbkk+AqEg+yvJHE4DElNzS4QaTsCflgkkqZwVlWby1Dg9zo9n+iCAMFefFdJ/A==",
+      "sha512": "veVYSW9k69+IajTqkdXrVY51MAix3MVaSqE0A8cBdAlLuntd2kEeairtakl4fAXLTu/7HYuWz1rAuCtPCkRpbA==",
       "type": "package",
       "path": "microsoft.csharp/4.0.0",
       "files": [
-        "Microsoft.CSharp.4.0.0.nupkg.sha512",
-        "Microsoft.CSharp.nuspec",
+        ".nupkg.metadata",
+        ".signature.p7s",
         "lib/MonoAndroid10/_._",
         "lib/MonoTouch10/_._",
         "lib/dotnet/Microsoft.CSharp.dll",
@@ -12253,6 +12544,8 @@
         "lib/wpa81/_._",
         "lib/xamarinios10/_._",
         "lib/xamarinmac20/_._",
+        "microsoft.csharp.4.0.0.nupkg.sha512",
+        "microsoft.csharp.nuspec",
         "ref/MonoAndroid10/_._",
         "ref/MonoTouch10/_._",
         "ref/dotnet/Microsoft.CSharp.dll",
@@ -12277,32 +12570,36 @@
       ]
     },
     "Microsoft.NETCore/5.0.0": {
-      "sha512": "QQMp0yYQbIdfkKhdEE6Umh2Xonau7tasG36Trw/YlHoWgYQLp7T9L+ZD8EPvdj5ubRhtOuKEKwM7HMpkagB9ZA==",
+      "sha512": "E5BgLSTFu++AS0u8JiU/VqXcfEPL9sjn5DBXhCkKXXGx7T9b6SwqCzSWFNRlq+PbG7oiYveydun/Tqd/9sL/Kg==",
       "type": "package",
       "path": "microsoft.netcore/5.0.0",
       "files": [
-        "Microsoft.NETCore.5.0.0.nupkg.sha512",
-        "Microsoft.NETCore.nuspec",
-        "_._"
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "_._",
+        "microsoft.netcore.5.0.0.nupkg.sha512",
+        "microsoft.netcore.nuspec"
       ]
     },
     "Microsoft.NETCore.Platforms/1.0.0": {
-      "sha512": "0N77OwGZpXqUco2C/ynv1os7HqdFYifvNIbveLDKqL5PZaz05Rl9enCwVBjF61aumHKueLWIJ3prnmdAXxww4A==",
+      "sha512": "oMGe3nF3deq9haeLO1uEzSlXdyyHtF6TpEK8U2S8HzoBmKmxGdTAf2OgWopg9XLrYYKpju8+4KtpO0opuwMXaA==",
       "type": "package",
       "path": "microsoft.netcore.platforms/1.0.0",
       "files": [
-        "Microsoft.NETCore.Platforms.1.0.0.nupkg.sha512",
-        "Microsoft.NETCore.Platforms.nuspec",
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "microsoft.netcore.platforms.1.0.0.nupkg.sha512",
+        "microsoft.netcore.platforms.nuspec",
         "runtime.json"
       ]
     },
     "Microsoft.NETCore.Portable.Compatibility/1.0.0": {
-      "sha512": "5/IFqf2zN1jzktRJitxO+5kQ+0AilcIbPvSojSJwDG3cGNSMZg44LXLB5E9RkSETE0Wh4QoALdNh1koKoF7/mA==",
+      "sha512": "XmegMPx9wOUB4a3NDiMM4SDMD+zfkGuBvlnIspYlcBmuo0Yw6Lq/KGEsc3QqEkCW0CDUJ3gN1Fh/K6nXZUWaKg==",
       "type": "package",
       "path": "microsoft.netcore.portable.compatibility/1.0.0",
       "files": [
-        "Microsoft.NETCore.Portable.Compatibility.1.0.0.nupkg.sha512",
-        "Microsoft.NETCore.Portable.Compatibility.nuspec",
+        ".nupkg.metadata",
+        ".signature.p7s",
         "lib/dnxcore50/System.ComponentModel.DataAnnotations.dll",
         "lib/dnxcore50/System.Core.dll",
         "lib/dnxcore50/System.Net.dll",
@@ -12331,6 +12628,8 @@
         "lib/win8/_._",
         "lib/wp80/_._",
         "lib/wpa81/_._",
+        "microsoft.netcore.portable.compatibility.1.0.0.nupkg.sha512",
+        "microsoft.netcore.portable.compatibility.nuspec",
         "ref/dotnet/System.ComponentModel.DataAnnotations.dll",
         "ref/dotnet/System.Core.dll",
         "ref/dotnet/System.Net.dll",
@@ -12377,20 +12676,24 @@
       ]
     },
     "Microsoft.NETCore.Runtime/1.0.0": {
-      "sha512": "AjaMNpXLW4miEQorIqyn6iQ+BZBId6qXkhwyeh1vl6kXLqosZusbwmLNlvj/xllSQrd3aImJbvlHusam85g+xQ==",
+      "sha512": "hopEIozZ8XDm49yHWIXLUp2R8SLEDQqQdt+tK2ocYNZO8ybbabnzbq+e85NIL2V80TzWnmTARl6H47AknRlt1A==",
       "type": "package",
       "path": "microsoft.netcore.runtime/1.0.0",
       "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
         "microsoft.netcore.runtime.1.0.0.nupkg.sha512",
         "microsoft.netcore.runtime.nuspec",
         "runtime.json"
       ]
     },
     "Microsoft.NETCore.Runtime.CoreCLR-arm/1.0.0": {
-      "sha512": "hoJfIl981eXwn9Tz8onO/J1xaYApIfp/YrhjSh9rRhml1U5Wj80LBgyp/6n+KI3VlvcAraThhnHnCTp+M3Uh+w==",
+      "sha512": "rOOValu6rpFN9A5NR43UcB8IFX7jBDRIIwLtNwJNcaO48rrwF9zfMBjO6gjpoC4eevJWkq3qGvT7BCrcp0I5Pg==",
       "type": "package",
       "path": "microsoft.netcore.runtime.coreclr-arm/1.0.0",
       "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
         "microsoft.netcore.runtime.coreclr-arm.1.0.0.nupkg.sha512",
         "microsoft.netcore.runtime.coreclr-arm.nuspec",
         "ref/dotnet/_._",
@@ -12405,10 +12708,12 @@
       ]
     },
     "Microsoft.NETCore.Runtime.CoreCLR-x64/1.0.0": {
-      "sha512": "DaY5Z13xCZpnVIGluC5sCo4/0wy1rl6mptBH7v3RYi3guAmG88aSeFoQzyZepo0H0jEixUxNFM0+MB6Jc+j0bw==",
+      "sha512": "WRJ7qSpLc0AdxfjprfSsCvgazNnZRab8Z4XUeNpZRpG4t6Uor3BZ2PcehgxsHhyJufVf0i6VywL6ax5WpwXIxA==",
       "type": "package",
       "path": "microsoft.netcore.runtime.coreclr-x64/1.0.0",
       "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
         "microsoft.netcore.runtime.coreclr-x64.1.0.0.nupkg.sha512",
         "microsoft.netcore.runtime.coreclr-x64.nuspec",
         "ref/dotnet/_._",
@@ -12423,10 +12728,12 @@
       ]
     },
     "Microsoft.NETCore.Runtime.CoreCLR-x86/1.0.0": {
-      "sha512": "2LDffu5Is/X01GVPVuye4Wmz9/SyGDNq1Opgl5bXG3206cwNiCwsQgILOtfSWVp5mn4w401+8cjhBy3THW8HQQ==",
+      "sha512": "kodIBwxTLAlXh6E07CR0HRcFfN7pEFu0oYY+HjNk8imF4edTE2F5VOPOh5uCwOgrtyNWT7xyHzgmTKNbu7gFcQ==",
       "type": "package",
       "path": "microsoft.netcore.runtime.coreclr-x86/1.0.0",
       "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
         "microsoft.netcore.runtime.coreclr-x86.1.0.0.nupkg.sha512",
         "microsoft.netcore.runtime.coreclr-x86.nuspec",
         "ref/dotnet/_._",
@@ -12441,52 +12748,62 @@
       ]
     },
     "Microsoft.NETCore.Runtime.Native/1.0.0": {
-      "sha512": "tMsWWrH1AJCguiM22zK/vr6COxqz62Q1F02B07IXAUN405R3HGk5SkD/DL0Hte+OTjNtW9LkKXpOggGBRwYFNg==",
+      "sha512": "DOVH2MBHXxUP+MbD6Z0i6KHq6oAR3Ip060cUtc1NEb5EpLLJc1RBPb3+w9wISfsbvVH3ahxvLv6gAL7vaD4RiQ==",
       "type": "package",
       "path": "microsoft.netcore.runtime.native/1.0.0",
       "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
         "_._",
         "microsoft.netcore.runtime.native.1.0.0.nupkg.sha512",
         "microsoft.netcore.runtime.native.nuspec"
       ]
     },
     "Microsoft.NETCore.Targets/1.0.0": {
-      "sha512": "XfITpPjYLYRmAeZtb9diw6P7ylLQsSC1U2a/xj10iQpnHxkiLEBXop/psw15qMPuNca7lqgxWvzZGpQxphuXaw==",
+      "sha512": "uf789HPvNy0Blaq3yTcx01gFUXPqolLfFWrJIZ8C2hUSsrx2wmjWCQOnYACUh9KmHSGQZduX6paDCoRnyRVEhg==",
       "type": "package",
       "path": "microsoft.netcore.targets/1.0.0",
       "files": [
-        "Microsoft.NETCore.Targets.1.0.0.nupkg.sha512",
-        "Microsoft.NETCore.Targets.nuspec",
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "microsoft.netcore.targets.1.0.0.nupkg.sha512",
+        "microsoft.netcore.targets.nuspec",
         "runtime.json"
       ]
     },
     "Microsoft.NETCore.Targets.UniversalWindowsPlatform/5.0.0": {
-      "sha512": "jszcJ6okLlhqF4OQbhSbixLOuLUyVT3BP7Y7/i7fcDMwnHBd1Pmdz6M1Al9SMDKVLA2oSaItg4tq6C0ydv8lYQ==",
+      "sha512": "fH8C8hojm2Pm4Y9wirsy2fapCS3TPIRk1zFn2PjR4OrYu743ACbI+BO1ZCiQESgjGz/efooS6xY8gifobT8kNA==",
       "type": "package",
       "path": "microsoft.netcore.targets.universalwindowsplatform/5.0.0",
       "files": [
-        "Microsoft.NETCore.Targets.UniversalWindowsPlatform.5.0.0.nupkg.sha512",
-        "Microsoft.NETCore.Targets.UniversalWindowsPlatform.nuspec",
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "microsoft.netcore.targets.universalwindowsplatform.5.0.0.nupkg.sha512",
+        "microsoft.netcore.targets.universalwindowsplatform.nuspec",
         "runtime.json"
       ]
     },
     "Microsoft.NETCore.UniversalWindowsPlatform/5.0.0": {
-      "sha512": "D0nsAm+yTk0oSSC7E6PcmuuEewBAQbGgIXNcCnRqQ4qLPdQLMjMHg8cilGs3xZgwTRQmMtEn45TAatrU1otWPQ==",
+      "sha512": "SA8wZRApSyRp6vGwF8FY+tk9+NpbOrQIpSAk1koMhEAaohLTOms8XYVhtoqN2wx1ZatR1TPukdJ9demH6BaFAA==",
       "type": "package",
       "path": "microsoft.netcore.universalwindowsplatform/5.0.0",
       "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
         "_._",
         "microsoft.netcore.universalwindowsplatform.5.0.0.nupkg.sha512",
         "microsoft.netcore.universalwindowsplatform.nuspec"
       ]
     },
     "Microsoft.NETCore.Windows.ApiSets-x64/1.0.0": {
-      "sha512": "NC+dpFMdhujz2sWAdJ8EmBk07p1zOlNi0FCCnZEbzftABpw9xZ99EMP/bUJrPTgCxHfzJAiuLPOtAauzVINk0w==",
+      "sha512": "BfUiSheM+wkYdgenpeB4p7i6EdZG4MZVKi6UCdUn1/8020rUok/Mf4DQMVNi/X43/BtKYhUOWuE0yHUOfmITmg==",
       "type": "package",
       "path": "microsoft.netcore.windows.apisets-x64/1.0.0",
       "files": [
-        "Microsoft.NETCore.Windows.ApiSets-x64.1.0.0.nupkg.sha512",
-        "Microsoft.NETCore.Windows.ApiSets-x64.nuspec",
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "microsoft.netcore.windows.apisets-x64.1.0.0.nupkg.sha512",
+        "microsoft.netcore.windows.apisets-x64.nuspec",
         "runtimes/win10-x64/native/_._",
         "runtimes/win7-x64/native/API-MS-Win-Base-Util-L1-1-0.dll",
         "runtimes/win7-x64/native/API-MS-Win-Core-Kernel32-Private-L1-1-0.dll",
@@ -12647,12 +12964,14 @@
       ]
     },
     "Microsoft.NETCore.Windows.ApiSets-x86/1.0.0": {
-      "sha512": "/HDRdhz5bZyhHwQ/uk/IbnDIX5VDTsHntEZYkTYo57dM+U3Ttel9/OJv0mjL64wTO/QKUJJNKp9XO+m7nSVjJQ==",
+      "sha512": "q0dFc1r9VwJnMxpMrGRTZ3qVln5LhaMF98FSR+fDFNzWPhge+ktPYBxMavEhZKClIncA/FteK2VaX8g9ryT4rw==",
       "type": "package",
       "path": "microsoft.netcore.windows.apisets-x86/1.0.0",
       "files": [
-        "Microsoft.NETCore.Windows.ApiSets-x86.1.0.0.nupkg.sha512",
-        "Microsoft.NETCore.Windows.ApiSets-x86.nuspec",
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "microsoft.netcore.windows.apisets-x86.1.0.0.nupkg.sha512",
+        "microsoft.netcore.windows.apisets-x86.nuspec",
         "runtimes/win10-x86/native/_._",
         "runtimes/win7-x86/native/API-MS-Win-Base-Util-L1-1-0.dll",
         "runtimes/win7-x86/native/API-MS-Win-Core-Kernel32-Private-L1-1-0.dll",
@@ -12813,17 +13132,19 @@
       ]
     },
     "Microsoft.VisualBasic/10.0.0": {
-      "sha512": "5BEm2/HAVd97whRlCChU7rmSh/9cwGlZ/NTNe3Jl07zuPWfKQq5TUvVNUmdvmEe8QRecJLZ4/e7WF1i1O8V42g==",
+      "sha512": "FGEYLRFi4t0rZt3N+TDFsWOAJIVxFJoShfy8LXHiY5wAvAlffV8/ymlaePSJB8I4e+D35qtNIVqY6w6TlgnX8A==",
       "type": "package",
       "path": "microsoft.visualbasic/10.0.0",
       "files": [
-        "Microsoft.VisualBasic.10.0.0.nupkg.sha512",
-        "Microsoft.VisualBasic.nuspec",
+        ".nupkg.metadata",
+        ".signature.p7s",
         "lib/dotnet/Microsoft.VisualBasic.dll",
         "lib/net45/_._",
         "lib/netcore50/Microsoft.VisualBasic.dll",
         "lib/win8/_._",
         "lib/wpa81/_._",
+        "microsoft.visualbasic.10.0.0.nupkg.sha512",
+        "microsoft.visualbasic.nuspec",
         "ref/dotnet/Microsoft.VisualBasic.dll",
         "ref/dotnet/Microsoft.VisualBasic.xml",
         "ref/dotnet/de/Microsoft.VisualBasic.xml",
@@ -12843,18 +13164,20 @@
       ]
     },
     "Microsoft.Win32.Primitives/4.0.0": {
-      "sha512": "CypEz9/lLOup8CEhiAmvr7aLs1zKPYyEU1sxQeEr6G0Ci8/F0Y6pYR1zzkROjM8j8Mq0typmbu676oYyvErQvg==",
+      "sha512": "6jHl4lZyJkELbYt/OUI1qlTFwrIQWIQoDonQ+BY0I25swDHM57GBW04/synTHVh60/VqvcGYrprsZqAdJ/Y7sA==",
       "type": "package",
       "path": "microsoft.win32.primitives/4.0.0",
       "files": [
-        "Microsoft.Win32.Primitives.4.0.0.nupkg.sha512",
-        "Microsoft.Win32.Primitives.nuspec",
+        ".nupkg.metadata",
+        ".signature.p7s",
         "lib/MonoAndroid10/_._",
         "lib/MonoTouch10/_._",
         "lib/dotnet/Microsoft.Win32.Primitives.dll",
         "lib/net46/Microsoft.Win32.Primitives.dll",
         "lib/xamarinios10/_._",
         "lib/xamarinmac20/_._",
+        "microsoft.win32.primitives.4.0.0.nupkg.sha512",
+        "microsoft.win32.primitives.nuspec",
         "ref/MonoAndroid10/_._",
         "ref/MonoTouch10/_._",
         "ref/dotnet/Microsoft.Win32.Primitives.dll",
@@ -12874,12 +13197,12 @@
       ]
     },
     "System.AppContext/4.0.0": {
-      "sha512": "gUoYgAWDC3+xhKeU5KSLbYDhTdBYk9GssrMSCcWUADzOglW+s0AmwVhOUGt2tL5xUl7ZXoYTPdA88zCgKrlG0A==",
+      "sha512": "AWC4XgqsiTksi6YudwOYGRUeIBDbmqgHv9jbm0vt1GrbbZWgomRwQyIc9ISVRTD9v+br5YPVXQdL9Cpmu3YgbA==",
       "type": "package",
       "path": "system.appcontext/4.0.0",
       "files": [
-        "System.AppContext.4.0.0.nupkg.sha512",
-        "System.AppContext.nuspec",
+        ".nupkg.metadata",
+        ".signature.p7s",
         "lib/DNXCore50/System.AppContext.dll",
         "lib/MonoAndroid10/_._",
         "lib/MonoTouch10/_._",
@@ -12902,16 +13225,18 @@
         "ref/dotnet/zh-hant/System.AppContext.xml",
         "ref/net46/System.AppContext.dll",
         "ref/xamarinios10/_._",
-        "ref/xamarinmac20/_._"
+        "ref/xamarinmac20/_._",
+        "system.appcontext.4.0.0.nupkg.sha512",
+        "system.appcontext.nuspec"
       ]
     },
     "System.Collections/4.0.10": {
-      "sha512": "ux6ilcZZjV/Gp7JEZpe+2V1eTueq6NuoGRM3eZCFuPM25hLVVgCRuea6STW8hvqreIOE59irJk5/ovpA5xQipw==",
+      "sha512": "l4uvekshNspz/jgF758VxzGI2tnfrAL0nXadiQeEvkweJwQ7ZNH+VV4oTcK2AVBjkwCh+af7P6hQrtZcumRDGw==",
       "type": "package",
       "path": "system.collections/4.0.10",
       "files": [
-        "System.Collections.4.0.10.nupkg.sha512",
-        "System.Collections.nuspec",
+        ".nupkg.metadata",
+        ".signature.p7s",
         "lib/DNXCore50/System.Collections.dll",
         "lib/MonoAndroid10/_._",
         "lib/MonoTouch10/_._",
@@ -12935,16 +13260,18 @@
         "ref/net46/_._",
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
-        "runtimes/win8-aot/lib/netcore50/System.Collections.dll"
+        "runtimes/win8-aot/lib/netcore50/System.Collections.dll",
+        "system.collections.4.0.10.nupkg.sha512",
+        "system.collections.nuspec"
       ]
     },
     "System.Collections.Concurrent/4.0.10": {
-      "sha512": "ZtMEqOPAjAIqR8fqom9AOKRaB94a+emO2O8uOP6vyJoNswSPrbiwN7iH53rrVpvjMVx0wr4/OMpI7486uGZjbw==",
+      "sha512": "HNYrmB9JjuczULKA4DH5p2CseA1n3stWn5enw64MAMHAzda8FCII4IzvIaq2FOoMJ4zGTGirS4RPFrEevpHoTA==",
       "type": "package",
       "path": "system.collections.concurrent/4.0.10",
       "files": [
-        "System.Collections.Concurrent.4.0.10.nupkg.sha512",
-        "System.Collections.Concurrent.nuspec",
+        ".nupkg.metadata",
+        ".signature.p7s",
         "lib/MonoAndroid10/_._",
         "lib/MonoTouch10/_._",
         "lib/dotnet/System.Collections.Concurrent.dll",
@@ -12966,29 +13293,33 @@
         "ref/dotnet/zh-hant/System.Collections.Concurrent.xml",
         "ref/net46/_._",
         "ref/xamarinios10/_._",
-        "ref/xamarinmac20/_._"
+        "ref/xamarinmac20/_._",
+        "system.collections.concurrent.4.0.10.nupkg.sha512",
+        "system.collections.concurrent.nuspec"
       ]
     },
     "System.Collections.Immutable/1.1.37": {
-      "sha512": "fTpqwZYBzoklTT+XjTRK8KxvmrGkYHzBiylCcKyQcxiOM8k+QvhNBxRvFHDWzy4OEP5f8/9n+xQ9mEgEXY+muA==",
+      "sha512": "NsVVE7mArZLo15HMcK4hdMCjIeMYEhpVHaC903eJh/FCIKGSyv4vraT/nXaD3+UciABVbenskz+Mdf79U4VX3g==",
       "type": "package",
       "path": "system.collections.immutable/1.1.37",
       "files": [
-        "System.Collections.Immutable.1.1.37.nupkg.sha512",
-        "System.Collections.Immutable.nuspec",
+        ".nupkg.metadata",
+        ".signature.p7s",
         "lib/dotnet/System.Collections.Immutable.dll",
         "lib/dotnet/System.Collections.Immutable.xml",
         "lib/portable-net45+win8+wp8+wpa81/System.Collections.Immutable.dll",
-        "lib/portable-net45+win8+wp8+wpa81/System.Collections.Immutable.xml"
+        "lib/portable-net45+win8+wp8+wpa81/System.Collections.Immutable.xml",
+        "system.collections.immutable.1.1.37.nupkg.sha512",
+        "system.collections.immutable.nuspec"
       ]
     },
     "System.Collections.NonGeneric/4.0.0": {
-      "sha512": "rVgwrFBMkmp8LI6GhAYd6Bx+2uLIXjRfNg6Ie+ASfX8ESuh9e2HNxFy2yh1MPIXZq3OAYa+0mmULVwpnEC6UDA==",
+      "sha512": "WExbKNJ5OpMwdI1kiBr3fxiziVMM4ucalzvIGmnS59m5GHmKvWI/OEAfZrTP1hLsSVawLNKS5qLpK5vMP0nBOg==",
       "type": "package",
       "path": "system.collections.nongeneric/4.0.0",
       "files": [
-        "System.Collections.NonGeneric.4.0.0.nupkg.sha512",
-        "System.Collections.NonGeneric.nuspec",
+        ".nupkg.metadata",
+        ".signature.p7s",
         "lib/MonoAndroid10/_._",
         "lib/MonoTouch10/_._",
         "lib/dotnet/System.Collections.NonGeneric.dll",
@@ -13010,16 +13341,18 @@
         "ref/dotnet/zh-hant/System.Collections.NonGeneric.xml",
         "ref/net46/System.Collections.NonGeneric.dll",
         "ref/xamarinios10/_._",
-        "ref/xamarinmac20/_._"
+        "ref/xamarinmac20/_._",
+        "system.collections.nongeneric.4.0.0.nupkg.sha512",
+        "system.collections.nongeneric.nuspec"
       ]
     },
     "System.Collections.Specialized/4.0.0": {
-      "sha512": "poJFwQCUOoXqvdoGxx+3p8Z63yawcYKPBSFP67Z2jICeOINvEIQZN7mVOAnC7gsVF0WU+A2wtVwfhagC7UCgAg==",
+      "sha512": "I2BQp3DSXThiG2EGfVSvJCKNnZkFnPHZRfVDa1ah8Cf+iuegfDaNUEUH4gdNNJggynQxWtplqMk5OfCp9ymKDA==",
       "type": "package",
       "path": "system.collections.specialized/4.0.0",
       "files": [
-        "System.Collections.Specialized.4.0.0.nupkg.sha512",
-        "System.Collections.Specialized.nuspec",
+        ".nupkg.metadata",
+        ".signature.p7s",
         "lib/MonoAndroid10/_._",
         "lib/MonoTouch10/_._",
         "lib/dotnet/System.Collections.Specialized.dll",
@@ -13041,16 +13374,18 @@
         "ref/dotnet/zh-hant/System.Collections.Specialized.xml",
         "ref/net46/System.Collections.Specialized.dll",
         "ref/xamarinios10/_._",
-        "ref/xamarinmac20/_._"
+        "ref/xamarinmac20/_._",
+        "system.collections.specialized.4.0.0.nupkg.sha512",
+        "system.collections.specialized.nuspec"
       ]
     },
     "System.ComponentModel/4.0.0": {
-      "sha512": "BzpLdSi++ld7rJLOOt5f/G9GxujP202bBgKORsHcGV36rLB0mfSA2h8chTMoBzFhgN7TE14TmJ2J7Q1RyNCTAw==",
+      "sha512": "pqnCElqZi8VhvNKwjAw/bEhS72+kAX7M0fGRuozFKQ54Lv3cLM1xJop0yLGkU4nFAOPxoF57ulVmFhfmscCWeQ==",
       "type": "package",
       "path": "system.componentmodel/4.0.0",
       "files": [
-        "System.ComponentModel.4.0.0.nupkg.sha512",
-        "System.ComponentModel.nuspec",
+        ".nupkg.metadata",
+        ".signature.p7s",
         "lib/dotnet/System.ComponentModel.dll",
         "lib/net45/_._",
         "lib/netcore50/System.ComponentModel.dll",
@@ -13073,16 +13408,18 @@
         "ref/netcore50/System.ComponentModel.xml",
         "ref/win8/_._",
         "ref/wp80/_._",
-        "ref/wpa81/_._"
+        "ref/wpa81/_._",
+        "system.componentmodel.4.0.0.nupkg.sha512",
+        "system.componentmodel.nuspec"
       ]
     },
     "System.ComponentModel.Annotations/4.0.10": {
-      "sha512": "7+XGyEZx24nP1kpHxCB9e+c6D0fdVDvFwE1xujE9BzlXyNVcy5J5aIO0H/ECupx21QpyRvzZibGAHfL/XLL6dw==",
+      "sha512": "v49mH0gbXzGso5m0oqeqytJoh36Y4R/J5P++KWu6tH8GQq75BA/Oprx8m0fb76VqCajPZUNKoEJbmth8ub/F4Q==",
       "type": "package",
       "path": "system.componentmodel.annotations/4.0.10",
       "files": [
-        "System.ComponentModel.Annotations.4.0.10.nupkg.sha512",
-        "System.ComponentModel.Annotations.nuspec",
+        ".nupkg.metadata",
+        ".signature.p7s",
         "lib/MonoAndroid10/_._",
         "lib/MonoTouch10/_._",
         "lib/dotnet/System.ComponentModel.Annotations.dll",
@@ -13104,16 +13441,18 @@
         "ref/dotnet/zh-hant/System.ComponentModel.Annotations.xml",
         "ref/net46/_._",
         "ref/xamarinios10/_._",
-        "ref/xamarinmac20/_._"
+        "ref/xamarinmac20/_._",
+        "system.componentmodel.annotations.4.0.10.nupkg.sha512",
+        "system.componentmodel.annotations.nuspec"
       ]
     },
     "System.ComponentModel.EventBasedAsync/4.0.10": {
-      "sha512": "d6kXcHUgP0jSPXEQ6hXJYCO6CzfoCi7t9vR3BfjSQLrj4HzpuATpx1gkN7itmTW1O+wjuw6rai4378Nj6N70yw==",
+      "sha512": "E9+yQEvSu6pOfehRcnFvhBESs2yR/A3gxFGtaL5JJOglH8hnQD8Bwayx30YyAGfDAwfour/tiumX4sHZXFh5eQ==",
       "type": "package",
       "path": "system.componentmodel.eventbasedasync/4.0.10",
       "files": [
-        "System.ComponentModel.EventBasedAsync.4.0.10.nupkg.sha512",
-        "System.ComponentModel.EventBasedAsync.nuspec",
+        ".nupkg.metadata",
+        ".signature.p7s",
         "lib/MonoAndroid10/_._",
         "lib/MonoTouch10/_._",
         "lib/dotnet/System.ComponentModel.EventBasedAsync.dll",
@@ -13135,16 +13474,18 @@
         "ref/dotnet/zh-hant/System.ComponentModel.EventBasedAsync.xml",
         "ref/net46/_._",
         "ref/xamarinios10/_._",
-        "ref/xamarinmac20/_._"
+        "ref/xamarinmac20/_._",
+        "system.componentmodel.eventbasedasync.4.0.10.nupkg.sha512",
+        "system.componentmodel.eventbasedasync.nuspec"
       ]
     },
     "System.Data.Common/4.0.0": {
-      "sha512": "SA7IdoTWiImVr0exDM68r0mKmR4f/qFGxZUrJQKu4YS7F+3afWzSOCezHxWdevQ0ONi4WRQsOiv+Zf9p8H0Feg==",
+      "sha512": "ALikPnkeUNlJc/4IZsajYP+5K8+9OebyAeFc2waUWCdDFY1toicKjZiUpkyuEv8Z23RlGoCiUccqizJcrjzhRg==",
       "type": "package",
       "path": "system.data.common/4.0.0",
       "files": [
-        "System.Data.Common.4.0.0.nupkg.sha512",
-        "System.Data.Common.nuspec",
+        ".nupkg.metadata",
+        ".signature.p7s",
         "lib/MonoAndroid10/_._",
         "lib/MonoTouch10/_._",
         "lib/dotnet/System.Data.Common.dll",
@@ -13166,16 +13507,18 @@
         "ref/dotnet/zh-hant/System.Data.Common.xml",
         "ref/net46/System.Data.Common.dll",
         "ref/xamarinios10/_._",
-        "ref/xamarinmac20/_._"
+        "ref/xamarinmac20/_._",
+        "system.data.common.4.0.0.nupkg.sha512",
+        "system.data.common.nuspec"
       ]
     },
     "System.Diagnostics.Contracts/4.0.0": {
-      "sha512": "lMc7HNmyIsu0pKTdA4wf+FMq5jvouUd+oUpV4BdtyqoV0Pkbg9u/7lTKFGqpjZRQosWHq1+B32Lch2wf4AmloA==",
+      "sha512": "/xHYbj7PRy2dFj/++GKFFZYXjx6Y8XxeQJ1sc/ZWn2W/el42zD7QwaM4kjQVOLr77ovNJj1m2tUA4DtAiZaz0Q==",
       "type": "package",
       "path": "system.diagnostics.contracts/4.0.0",
       "files": [
-        "System.Diagnostics.Contracts.4.0.0.nupkg.sha512",
-        "System.Diagnostics.Contracts.nuspec",
+        ".nupkg.metadata",
+        ".signature.p7s",
         "lib/DNXCore50/System.Diagnostics.Contracts.dll",
         "lib/net45/_._",
         "lib/netcore50/System.Diagnostics.Contracts.dll",
@@ -13199,16 +13542,18 @@
         "ref/win8/_._",
         "ref/wp80/_._",
         "ref/wpa81/_._",
-        "runtimes/win8-aot/lib/netcore50/System.Diagnostics.Contracts.dll"
+        "runtimes/win8-aot/lib/netcore50/System.Diagnostics.Contracts.dll",
+        "system.diagnostics.contracts.4.0.0.nupkg.sha512",
+        "system.diagnostics.contracts.nuspec"
       ]
     },
     "System.Diagnostics.Debug/4.0.10": {
-      "sha512": "pi2KthuvI2LWV2c2V+fwReDsDiKpNl040h6DcwFOb59SafsPT/V1fCy0z66OKwysurJkBMmp5j5CBe3Um+ub0g==",
+      "sha512": "Eh6wJoaPHmeg+Nyz7QreDDKUxC9jwPt+CR8BDQvFfE5paue4/7WTlCU3G2l0XFNt33JVE0MbzbeJqb5VZA7+fQ==",
       "type": "package",
       "path": "system.diagnostics.debug/4.0.10",
       "files": [
-        "System.Diagnostics.Debug.4.0.10.nupkg.sha512",
-        "System.Diagnostics.Debug.nuspec",
+        ".nupkg.metadata",
+        ".signature.p7s",
         "lib/DNXCore50/System.Diagnostics.Debug.dll",
         "lib/MonoAndroid10/_._",
         "lib/MonoTouch10/_._",
@@ -13232,16 +13577,18 @@
         "ref/net46/_._",
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
-        "runtimes/win8-aot/lib/netcore50/System.Diagnostics.Debug.dll"
+        "runtimes/win8-aot/lib/netcore50/System.Diagnostics.Debug.dll",
+        "system.diagnostics.debug.4.0.10.nupkg.sha512",
+        "system.diagnostics.debug.nuspec"
       ]
     },
     "System.Diagnostics.StackTrace/4.0.0": {
-      "sha512": "PItgenqpRiMqErvQONBlfDwctKpWVrcDSW5pppNZPJ6Bpiyz+KjsWoSiaqs5dt03HEbBTMNCrZb8KCkh7YfXmw==",
+      "sha512": "fEs1fq4u5+J7hp3m9D9LhdI+oiOGgTOMpW7BJa9uhUADjFQVRZDGsIoxm3JBsE0fiSJq/pM8RjSJ36jup5bVzQ==",
       "type": "package",
       "path": "system.diagnostics.stacktrace/4.0.0",
       "files": [
-        "System.Diagnostics.StackTrace.4.0.0.nupkg.sha512",
-        "System.Diagnostics.StackTrace.nuspec",
+        ".nupkg.metadata",
+        ".signature.p7s",
         "lib/DNXCore50/System.Diagnostics.StackTrace.dll",
         "lib/MonoAndroid10/_._",
         "lib/MonoTouch10/_._",
@@ -13265,16 +13612,18 @@
         "ref/net46/System.Diagnostics.StackTrace.dll",
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
-        "runtimes/win8-aot/lib/netcore50/System.Diagnostics.StackTrace.dll"
+        "runtimes/win8-aot/lib/netcore50/System.Diagnostics.StackTrace.dll",
+        "system.diagnostics.stacktrace.4.0.0.nupkg.sha512",
+        "system.diagnostics.stacktrace.nuspec"
       ]
     },
     "System.Diagnostics.Tools/4.0.0": {
-      "sha512": "uw5Qi2u5Cgtv4xv3+8DeB63iaprPcaEHfpeJqlJiLjIVy6v0La4ahJ6VW9oPbJNIjcavd24LKq0ctT9ssuQXsw==",
+      "sha512": "hB7UFRLmya97U/NQ6FZENcsKMbRA86JjcWYtDjZOAiWwhSom5UeWpHzasT8Y7QQfdf8zYR9Q622H/e9bBRlvWw==",
       "type": "package",
       "path": "system.diagnostics.tools/4.0.0",
       "files": [
-        "System.Diagnostics.Tools.4.0.0.nupkg.sha512",
-        "System.Diagnostics.Tools.nuspec",
+        ".nupkg.metadata",
+        ".signature.p7s",
         "lib/DNXCore50/System.Diagnostics.Tools.dll",
         "lib/net45/_._",
         "lib/netcore50/System.Diagnostics.Tools.dll",
@@ -13298,16 +13647,18 @@
         "ref/win8/_._",
         "ref/wp80/_._",
         "ref/wpa81/_._",
-        "runtimes/win8-aot/lib/netcore50/System.Diagnostics.Tools.dll"
+        "runtimes/win8-aot/lib/netcore50/System.Diagnostics.Tools.dll",
+        "system.diagnostics.tools.4.0.0.nupkg.sha512",
+        "system.diagnostics.tools.nuspec"
       ]
     },
     "System.Diagnostics.Tracing/4.0.20": {
-      "sha512": "gn/wexGHc35Fv++5L1gYHMY5g25COfiZ0PGrL+3PfwzoJd4X2LbTAm/U8d385SI6BKQBI/z4dQfvneS9J27+Tw==",
+      "sha512": "5+SBU3DzdfA+TfoSdu3b3/TT3udad+fGXTvjX9iZZm2fgDCLGCCqKg5DnCgp6HD6BYJ0bbKN5xZNrYwyocwyQQ==",
       "type": "package",
       "path": "system.diagnostics.tracing/4.0.20",
       "files": [
-        "System.Diagnostics.Tracing.4.0.20.nupkg.sha512",
-        "System.Diagnostics.Tracing.nuspec",
+        ".nupkg.metadata",
+        ".signature.p7s",
         "lib/DNXCore50/System.Diagnostics.Tracing.dll",
         "lib/MonoAndroid10/_._",
         "lib/MonoTouch10/_._",
@@ -13331,16 +13682,18 @@
         "ref/net46/_._",
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
-        "runtimes/win8-aot/lib/netcore50/System.Diagnostics.Tracing.dll"
+        "runtimes/win8-aot/lib/netcore50/System.Diagnostics.Tracing.dll",
+        "system.diagnostics.tracing.4.0.20.nupkg.sha512",
+        "system.diagnostics.tracing.nuspec"
       ]
     },
     "System.Dynamic.Runtime/4.0.10": {
-      "sha512": "r10VTLdlxtYp46BuxomHnwx7vIoMOr04CFoC/jJJfY22f7HQQ4P+cXY2Nxo6/rIxNNqOxwdbQQwv7Gl88Jsu1w==",
+      "sha512": "faGd1dBsC+intMfVkqZ8PydKOCPz534V+gKEkFJ1U0RhbYsP8HnowM8WQIxGj9etkDpxceEoTipFiqJSdwqo4A==",
       "type": "package",
       "path": "system.dynamic.runtime/4.0.10",
       "files": [
-        "System.Dynamic.Runtime.4.0.10.nupkg.sha512",
-        "System.Dynamic.Runtime.nuspec",
+        ".nupkg.metadata",
+        ".signature.p7s",
         "lib/DNXCore50/System.Dynamic.Runtime.dll",
         "lib/MonoAndroid10/_._",
         "lib/MonoTouch10/_._",
@@ -13365,16 +13718,18 @@
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
         "runtime.json",
-        "runtimes/win8-aot/lib/netcore50/System.Dynamic.Runtime.dll"
+        "runtimes/win8-aot/lib/netcore50/System.Dynamic.Runtime.dll",
+        "system.dynamic.runtime.4.0.10.nupkg.sha512",
+        "system.dynamic.runtime.nuspec"
       ]
     },
     "System.Globalization/4.0.10": {
-      "sha512": "kzRtbbCNAxdafFBDogcM36ehA3th8c1PGiz8QRkZn8O5yMBorDHSK8/TGJPYOaCS5zdsGk0u9qXHnW91nqy7fw==",
+      "sha512": "skXZP0c2U1mEj/YDrgrOr7h8PNpcG9zPn7G48Ky631rq5aa/bTJxhks2Eafzca+sbKVa3o+l5L4Ola2a6kbRNg==",
       "type": "package",
       "path": "system.globalization/4.0.10",
       "files": [
-        "System.Globalization.4.0.10.nupkg.sha512",
-        "System.Globalization.nuspec",
+        ".nupkg.metadata",
+        ".signature.p7s",
         "lib/DNXCore50/System.Globalization.dll",
         "lib/MonoAndroid10/_._",
         "lib/MonoTouch10/_._",
@@ -13398,16 +13753,18 @@
         "ref/net46/_._",
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
-        "runtimes/win8-aot/lib/netcore50/System.Globalization.dll"
+        "runtimes/win8-aot/lib/netcore50/System.Globalization.dll",
+        "system.globalization.4.0.10.nupkg.sha512",
+        "system.globalization.nuspec"
       ]
     },
     "System.Globalization.Calendars/4.0.0": {
-      "sha512": "cL6WrdGKnNBx9W/iTr+jbffsEO4RLjEtOYcpVSzPNDoli6X5Q6bAfWtJYbJNOPi8Q0fXgBEvKK1ncFL/3FTqlA==",
+      "sha512": "6G5/CRptGqvVWX9PFY0yOSPUKtcJY1DX4UO5HI8f5bzHjVhQ3zCTHsAhhPldoSVgdqm+yc77f8hTvYZbfoFcoQ==",
       "type": "package",
       "path": "system.globalization.calendars/4.0.0",
       "files": [
-        "System.Globalization.Calendars.4.0.0.nupkg.sha512",
-        "System.Globalization.Calendars.nuspec",
+        ".nupkg.metadata",
+        ".signature.p7s",
         "lib/DNXCore50/System.Globalization.Calendars.dll",
         "lib/MonoAndroid10/_._",
         "lib/MonoTouch10/_._",
@@ -13431,16 +13788,18 @@
         "ref/net46/System.Globalization.Calendars.dll",
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
-        "runtimes/win8-aot/lib/netcore50/System.Globalization.Calendars.dll"
+        "runtimes/win8-aot/lib/netcore50/System.Globalization.Calendars.dll",
+        "system.globalization.calendars.4.0.0.nupkg.sha512",
+        "system.globalization.calendars.nuspec"
       ]
     },
     "System.Globalization.Extensions/4.0.0": {
-      "sha512": "rqbUXiwpBCvJ18ySCsjh20zleazO+6fr3s5GihC2sVwhyS0MUl6+oc5Rzk0z6CKkS4kmxbZQSeZLsK7cFSO0ng==",
+      "sha512": "4VnsK6nqqK5BnXkFI9lNjxVZaw1KZp2RT7VkH66nKDM7phZYzAJYCd/78WObBf05vBA6gCwNZBbGYyzR75XeKg==",
       "type": "package",
       "path": "system.globalization.extensions/4.0.0",
       "files": [
-        "System.Globalization.Extensions.4.0.0.nupkg.sha512",
-        "System.Globalization.Extensions.nuspec",
+        ".nupkg.metadata",
+        ".signature.p7s",
         "lib/MonoAndroid10/_._",
         "lib/MonoTouch10/_._",
         "lib/dotnet/System.Globalization.Extensions.dll",
@@ -13462,16 +13821,18 @@
         "ref/dotnet/zh-hant/System.Globalization.Extensions.xml",
         "ref/net46/System.Globalization.Extensions.dll",
         "ref/xamarinios10/_._",
-        "ref/xamarinmac20/_._"
+        "ref/xamarinmac20/_._",
+        "system.globalization.extensions.4.0.0.nupkg.sha512",
+        "system.globalization.extensions.nuspec"
       ]
     },
     "System.IO/4.0.10": {
-      "sha512": "kghf1CeYT+W2lw8a50/GxFz5HR9t6RkL4BvjxtTp1NxtEFWywnMA9W8FH/KYXiDNThcw9u/GOViDON4iJFGXIQ==",
+      "sha512": "cG0BdDX3+LHrojktRBMDTU1l0X2wXVe21mid3/1sIeC+XqSKdjjnN4OPELPA8BgEMmBWCqKc2UqMcv+KcQ5vOg==",
       "type": "package",
       "path": "system.io/4.0.10",
       "files": [
-        "System.IO.4.0.10.nupkg.sha512",
-        "System.IO.nuspec",
+        ".nupkg.metadata",
+        ".signature.p7s",
         "lib/DNXCore50/System.IO.dll",
         "lib/MonoAndroid10/_._",
         "lib/MonoTouch10/_._",
@@ -13495,16 +13856,18 @@
         "ref/net46/_._",
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
-        "runtimes/win8-aot/lib/netcore50/System.IO.dll"
+        "runtimes/win8-aot/lib/netcore50/System.IO.dll",
+        "system.io.4.0.10.nupkg.sha512",
+        "system.io.nuspec"
       ]
     },
     "System.IO.Compression/4.0.0": {
-      "sha512": "S+ljBE3py8pujTrsOOYHtDg2cnAifn6kBu/pfh1hMWIXd8DoVh0ADTA6Puv4q+nYj+Msm6JoFLNwuRSmztbsDQ==",
+      "sha512": "hJIXEqFfDO7fSHAT6yHwh4h/pSeH5gPwKZcK2HfORgMZIQcO4PGxYauNbJ3mBjcJ60zO5+wi+dXjYoTD6bKjrA==",
       "type": "package",
       "path": "system.io.compression/4.0.0",
       "files": [
-        "System.IO.Compression.4.0.0.nupkg.sha512",
-        "System.IO.Compression.nuspec",
+        ".nupkg.metadata",
+        ".signature.p7s",
         "lib/MonoAndroid10/_._",
         "lib/MonoTouch10/_._",
         "lib/dotnet/System.IO.Compression.dll",
@@ -13534,49 +13897,57 @@
         "ref/wpa81/_._",
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
-        "runtime.json"
+        "runtime.json",
+        "system.io.compression.4.0.0.nupkg.sha512",
+        "system.io.compression.nuspec"
       ]
     },
     "System.IO.Compression.clrcompression-arm/4.0.0": {
-      "sha512": "Kk21GecAbI+H6tMP6/lMssGObbhoHwLiREiB5UkNMCypdxACuF+6gmrdDTousCUcbH28CJeo7tArrnUc+bchuw==",
+      "sha512": "fJGLHKlGaYP+hDxVh5ry4COe1ybH+VlURJDQoxDcMVWRSa+sDop0EGcpbXvUvwGB0I5Bm9a7P8FkNEnI6Ttwcw==",
       "type": "package",
       "path": "system.io.compression.clrcompression-arm/4.0.0",
       "files": [
-        "System.IO.Compression.clrcompression-arm.4.0.0.nupkg.sha512",
-        "System.IO.Compression.clrcompression-arm.nuspec",
+        ".nupkg.metadata",
+        ".signature.p7s",
         "runtimes/win10-arm/native/ClrCompression.dll",
-        "runtimes/win7-arm/native/clrcompression.dll"
+        "runtimes/win7-arm/native/clrcompression.dll",
+        "system.io.compression.clrcompression-arm.4.0.0.nupkg.sha512",
+        "system.io.compression.clrcompression-arm.nuspec"
       ]
     },
     "System.IO.Compression.clrcompression-x64/4.0.0": {
-      "sha512": "Lqr+URMwKzf+8HJF6YrqEqzKzDzFJTE4OekaxqdIns71r8Ufbd8SbZa0LKl9q+7nu6Em4SkIEXVMB7plSXekOw==",
+      "sha512": "suWEJCuSu78XkM5v5dn9E6u+bJpkTwT8UWYxlHRlLAm9GFYIdE1sIYMHnicqIdwPHeQrb9liHtI/GiStn6v3Rg==",
       "type": "package",
       "path": "system.io.compression.clrcompression-x64/4.0.0",
       "files": [
-        "System.IO.Compression.clrcompression-x64.4.0.0.nupkg.sha512",
-        "System.IO.Compression.clrcompression-x64.nuspec",
+        ".nupkg.metadata",
+        ".signature.p7s",
         "runtimes/win10-x64/native/ClrCompression.dll",
-        "runtimes/win7-x64/native/clrcompression.dll"
+        "runtimes/win7-x64/native/clrcompression.dll",
+        "system.io.compression.clrcompression-x64.4.0.0.nupkg.sha512",
+        "system.io.compression.clrcompression-x64.nuspec"
       ]
     },
     "System.IO.Compression.clrcompression-x86/4.0.0": {
-      "sha512": "GmevpuaMRzYDXHu+xuV10fxTO8DsP7OKweWxYtkaxwVnDSj9X6RBupSiXdiveq9yj/xjZ1NbG+oRRRb99kj+VQ==",
+      "sha512": "jNFJOWBo6sd6oy1UvSiJ1oL2jKtXbepWSUWMg4IvVGQRxveM+tJgYZ1FcomryIZPXbd+HM9xKWJ142VpOJ18PA==",
       "type": "package",
       "path": "system.io.compression.clrcompression-x86/4.0.0",
       "files": [
-        "System.IO.Compression.clrcompression-x86.4.0.0.nupkg.sha512",
-        "System.IO.Compression.clrcompression-x86.nuspec",
+        ".nupkg.metadata",
+        ".signature.p7s",
         "runtimes/win10-x86/native/ClrCompression.dll",
-        "runtimes/win7-x86/native/clrcompression.dll"
+        "runtimes/win7-x86/native/clrcompression.dll",
+        "system.io.compression.clrcompression-x86.4.0.0.nupkg.sha512",
+        "system.io.compression.clrcompression-x86.nuspec"
       ]
     },
     "System.IO.Compression.ZipFile/4.0.0": {
-      "sha512": "pwntmtsJqtt6Lez4Iyv4GVGW6DaXUTo9Rnlsx0MFagRgX+8F/sxG5S/IzDJabBj68sUWViz1QJrRZL4V9ngWDg==",
+      "sha512": "RYyH9Bcr162yDtK8eqjG0IF7W5+9jMIMr7hFpWROryAk084bw0BDrKDZuzm17DvKGnbc8S59xUfyUcndwONhcg==",
       "type": "package",
       "path": "system.io.compression.zipfile/4.0.0",
       "files": [
-        "System.IO.Compression.ZipFile.4.0.0.nupkg.sha512",
-        "System.IO.Compression.ZipFile.nuspec",
+        ".nupkg.metadata",
+        ".signature.p7s",
         "lib/MonoAndroid10/_._",
         "lib/MonoTouch10/_._",
         "lib/dotnet/System.IO.Compression.ZipFile.dll",
@@ -13598,16 +13969,18 @@
         "ref/dotnet/zh-hant/System.IO.Compression.ZipFile.xml",
         "ref/net46/System.IO.Compression.ZipFile.dll",
         "ref/xamarinios10/_._",
-        "ref/xamarinmac20/_._"
+        "ref/xamarinmac20/_._",
+        "system.io.compression.zipfile.4.0.0.nupkg.sha512",
+        "system.io.compression.zipfile.nuspec"
       ]
     },
     "System.IO.FileSystem/4.0.0": {
-      "sha512": "eo05SPWfG+54UA0wxgRIYOuOslq+2QrJLXZaJDDsfLXG15OLguaItW39NYZTqUb4DeGOkU4R0wpOLOW4ynMUDQ==",
+      "sha512": "r8nFo8eGKMudvsieFZq47685fzl1ywIo02UL+lJbf5dQ1FUknoLE/elHu5gpov5efDFsWLykvtLcN4Jk4SQ6wQ==",
       "type": "package",
       "path": "system.io.filesystem/4.0.0",
       "files": [
-        "System.IO.FileSystem.4.0.0.nupkg.sha512",
-        "System.IO.FileSystem.nuspec",
+        ".nupkg.metadata",
+        ".signature.p7s",
         "lib/DNXCore50/System.IO.FileSystem.dll",
         "lib/MonoAndroid10/_._",
         "lib/MonoTouch10/_._",
@@ -13630,16 +14003,18 @@
         "ref/dotnet/zh-hant/System.IO.FileSystem.xml",
         "ref/net46/System.IO.FileSystem.dll",
         "ref/xamarinios10/_._",
-        "ref/xamarinmac20/_._"
+        "ref/xamarinmac20/_._",
+        "system.io.filesystem.4.0.0.nupkg.sha512",
+        "system.io.filesystem.nuspec"
       ]
     },
     "System.IO.FileSystem.Primitives/4.0.0": {
-      "sha512": "7pJUvYi/Yq3A5nagqCCiOw3+aJp3xXc/Cjr8dnJDnER3/6kX3LEencfqmXUcPl9+7OvRNyPMNhqsLAcMK6K/KA==",
+      "sha512": "xY79LIyyDc8vtdT5TacN0aEVe9+OR2ifHZdZeLJSDZpO8YQTOD3fqNBdo/RZRzVw9Tx8fUcb73gHjZ9+QEskaQ==",
       "type": "package",
       "path": "system.io.filesystem.primitives/4.0.0",
       "files": [
-        "System.IO.FileSystem.Primitives.4.0.0.nupkg.sha512",
-        "System.IO.FileSystem.Primitives.nuspec",
+        ".nupkg.metadata",
+        ".signature.p7s",
         "lib/MonoAndroid10/_._",
         "lib/MonoTouch10/_._",
         "lib/dotnet/System.IO.FileSystem.Primitives.dll",
@@ -13661,16 +14036,18 @@
         "ref/dotnet/zh-hant/System.IO.FileSystem.Primitives.xml",
         "ref/net46/System.IO.FileSystem.Primitives.dll",
         "ref/xamarinios10/_._",
-        "ref/xamarinmac20/_._"
+        "ref/xamarinmac20/_._",
+        "system.io.filesystem.primitives.4.0.0.nupkg.sha512",
+        "system.io.filesystem.primitives.nuspec"
       ]
     },
     "System.IO.IsolatedStorage/4.0.0": {
-      "sha512": "d5KimUbZ49Ki6A/uwU+Iodng+nhJvpRs7hr/828cfeXC02LxUiggnRnAu+COtWcKvJ2YbBmAGOcO4GLK4fX1+w==",
+      "sha512": "YyGYqYxbqd8drjaCALFIsED7aMV04NzWACUYlcn/qTsSyJ7Nt3abj7Sdm51ZWlqsewsyiqMYx7IFbZScZEJIlg==",
       "type": "package",
       "path": "system.io.isolatedstorage/4.0.0",
       "files": [
-        "System.IO.IsolatedStorage.4.0.0.nupkg.sha512",
-        "System.IO.IsolatedStorage.nuspec",
+        ".nupkg.metadata",
+        ".signature.p7s",
         "lib/MonoAndroid10/_._",
         "lib/MonoTouch10/_._",
         "lib/netcore50/System.IO.IsolatedStorage.dll",
@@ -13690,16 +14067,18 @@
         "ref/dotnet/zh-hans/System.IO.IsolatedStorage.xml",
         "ref/dotnet/zh-hant/System.IO.IsolatedStorage.xml",
         "ref/xamarinios10/_._",
-        "ref/xamarinmac20/_._"
+        "ref/xamarinmac20/_._",
+        "system.io.isolatedstorage.4.0.0.nupkg.sha512",
+        "system.io.isolatedstorage.nuspec"
       ]
     },
     "System.IO.UnmanagedMemoryStream/4.0.0": {
-      "sha512": "i2xczgQfwHmolORBNHxV9b5izP8VOBxgSA2gf+H55xBvwqtR+9r9adtzlc7at0MAwiLcsk6V1TZlv2vfRQr8Sw==",
+      "sha512": "UUbmCRGz2Er7br80LbbL5wgM6b8SCzmSvyohS6uXyc1iTdWoaAlDHAwwwR32CU5b1vFjYT6aEOKSIvZ0ujOkyg==",
       "type": "package",
       "path": "system.io.unmanagedmemorystream/4.0.0",
       "files": [
-        "System.IO.UnmanagedMemoryStream.4.0.0.nupkg.sha512",
-        "System.IO.UnmanagedMemoryStream.nuspec",
+        ".nupkg.metadata",
+        ".signature.p7s",
         "lib/MonoAndroid10/_._",
         "lib/MonoTouch10/_._",
         "lib/dotnet/System.IO.UnmanagedMemoryStream.dll",
@@ -13721,16 +14100,18 @@
         "ref/dotnet/zh-hant/System.IO.UnmanagedMemoryStream.xml",
         "ref/net46/System.IO.UnmanagedMemoryStream.dll",
         "ref/xamarinios10/_._",
-        "ref/xamarinmac20/_._"
+        "ref/xamarinmac20/_._",
+        "system.io.unmanagedmemorystream.4.0.0.nupkg.sha512",
+        "system.io.unmanagedmemorystream.nuspec"
       ]
     },
     "System.Linq/4.0.0": {
-      "sha512": "r6Hlc+ytE6m/9UBr+nNRRdoJEWjoeQiT3L3lXYFDHoXk3VYsRBCDNXrawcexw7KPLaH0zamQLiAb6avhZ50cGg==",
+      "sha512": "5kNeRT6GQOi7IjdLnRQWM3mJxSBHwGz9u6f7kYwsENeiHU4Ic+1PSYKrNpX4etRoj6DAA38b3z48+CukUBiohQ==",
       "type": "package",
       "path": "system.linq/4.0.0",
       "files": [
-        "System.Linq.4.0.0.nupkg.sha512",
-        "System.Linq.nuspec",
+        ".nupkg.metadata",
+        ".signature.p7s",
         "lib/dotnet/System.Linq.dll",
         "lib/net45/_._",
         "lib/netcore50/System.Linq.dll",
@@ -13753,16 +14134,18 @@
         "ref/netcore50/System.Linq.xml",
         "ref/win8/_._",
         "ref/wp80/_._",
-        "ref/wpa81/_._"
+        "ref/wpa81/_._",
+        "system.linq.4.0.0.nupkg.sha512",
+        "system.linq.nuspec"
       ]
     },
     "System.Linq.Expressions/4.0.10": {
-      "sha512": "qhFkPqRsTfXBaacjQhxwwwUoU7TEtwlBIULj7nG7i4qAkvivil31VvOvDKppCSui5yGw0/325ZeNaMYRvTotXw==",
+      "sha512": "SLvu2wTZKIPfYVvzI1wsaYzEYaLVpn3vhGpy7lgLSRxrTo6QOSx9odApAStYh5GQEweG4290g68LoiPvxcB7wA==",
       "type": "package",
       "path": "system.linq.expressions/4.0.10",
       "files": [
-        "System.Linq.Expressions.4.0.10.nupkg.sha512",
-        "System.Linq.Expressions.nuspec",
+        ".nupkg.metadata",
+        ".signature.p7s",
         "lib/DNXCore50/System.Linq.Expressions.dll",
         "lib/MonoAndroid10/_._",
         "lib/MonoTouch10/_._",
@@ -13787,16 +14170,18 @@
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
         "runtime.json",
-        "runtimes/win8-aot/lib/netcore50/System.Linq.Expressions.dll"
+        "runtimes/win8-aot/lib/netcore50/System.Linq.Expressions.dll",
+        "system.linq.expressions.4.0.10.nupkg.sha512",
+        "system.linq.expressions.nuspec"
       ]
     },
     "System.Linq.Parallel/4.0.0": {
-      "sha512": "PtH7KKh1BbzVow4XY17pnrn7Io63ApMdwzRE2o2HnzsKQD/0o7X5xe6mxrDUqTm9ZCR3/PNhAlP13VY1HnHsbA==",
+      "sha512": "IgWvKS91aem8aPQPNyOzB2LNyRhm3gwgHMRFxkGiDLlo6ItBe+d2nkJvYfcV66SpHkB8F/ICfYcmjsGksF2UkQ==",
       "type": "package",
       "path": "system.linq.parallel/4.0.0",
       "files": [
-        "System.Linq.Parallel.4.0.0.nupkg.sha512",
-        "System.Linq.Parallel.nuspec",
+        ".nupkg.metadata",
+        ".signature.p7s",
         "lib/dotnet/System.Linq.Parallel.dll",
         "lib/net45/_._",
         "lib/netcore50/System.Linq.Parallel.dll",
@@ -13817,16 +14202,18 @@
         "ref/netcore50/System.Linq.Parallel.dll",
         "ref/netcore50/System.Linq.Parallel.xml",
         "ref/win8/_._",
-        "ref/wpa81/_._"
+        "ref/wpa81/_._",
+        "system.linq.parallel.4.0.0.nupkg.sha512",
+        "system.linq.parallel.nuspec"
       ]
     },
     "System.Linq.Queryable/4.0.0": {
-      "sha512": "DIlvCNn3ucFvwMMzXcag4aFnFJ1fdxkQ5NqwJe9Nh7y8ozzhDm07YakQL/yoF3P1dLzY1T2cTpuwbAmVSdXyBA==",
+      "sha512": "u2Vch9zhM1Uc7WM9zE/BsTnPw29MidK0nCi96lwZ6NMcaN5mdm4yBiJTjzG2ZEXpu+BTxch2QE4hCUIYWZUb5Q==",
       "type": "package",
       "path": "system.linq.queryable/4.0.0",
       "files": [
-        "System.Linq.Queryable.4.0.0.nupkg.sha512",
-        "System.Linq.Queryable.nuspec",
+        ".nupkg.metadata",
+        ".signature.p7s",
         "lib/dotnet/System.Linq.Queryable.dll",
         "lib/net45/_._",
         "lib/netcore50/System.Linq.Queryable.dll",
@@ -13849,16 +14236,18 @@
         "ref/netcore50/System.Linq.Queryable.xml",
         "ref/win8/_._",
         "ref/wp80/_._",
-        "ref/wpa81/_._"
+        "ref/wpa81/_._",
+        "system.linq.queryable.4.0.0.nupkg.sha512",
+        "system.linq.queryable.nuspec"
       ]
     },
     "System.Net.Http/4.0.0": {
-      "sha512": "mZuAl7jw/mFY8jUq4ITKECxVBh9a8SJt9BC/+lJbmo7cRKspxE3PsITz+KiaCEsexN5WYPzwBOx0oJH/0HlPyQ==",
+      "sha512": "pDq+9G0LAw6IfPnV6Z4XZBxAYsfQT1G3HLBRp8K+c1OG8w+7/UH4lrDJ83A9Ifd4UNkBM7JcoTV3pBnziQbeHA==",
       "type": "package",
       "path": "system.net.http/4.0.0",
       "files": [
-        "System.Net.Http.4.0.0.nupkg.sha512",
-        "System.Net.Http.nuspec",
+        ".nupkg.metadata",
+        ".signature.p7s",
         "lib/DNXCore50/System.Net.Http.dll",
         "lib/net45/_._",
         "lib/netcore50/System.Net.Http.dll",
@@ -13879,16 +14268,18 @@
         "ref/netcore50/System.Net.Http.dll",
         "ref/netcore50/System.Net.Http.xml",
         "ref/win8/_._",
-        "ref/wpa81/_._"
+        "ref/wpa81/_._",
+        "system.net.http.4.0.0.nupkg.sha512",
+        "system.net.http.nuspec"
       ]
     },
     "System.Net.Http.Rtc/4.0.0": {
-      "sha512": "PlE+oJgXdbxPmZYR6GBywRkyIPovjB1Y0SYHizj2Iflgu80uJQC4szl9gue4rKI2FgXiEbj9JL7wL5K3mp9HAQ==",
+      "sha512": "mZiaMWNsimIwleHrwog7EhThKiXq/6v65nMIoUBI70yeBSs0a6pmOmYazUzMGvwWYO9krDrXosO5CtJG3QraEA==",
       "type": "package",
       "path": "system.net.http.rtc/4.0.0",
       "files": [
-        "System.Net.Http.Rtc.4.0.0.nupkg.sha512",
-        "System.Net.Http.Rtc.nuspec",
+        ".nupkg.metadata",
+        ".signature.p7s",
         "lib/netcore50/System.Net.Http.Rtc.dll",
         "lib/win8/_._",
         "ref/dotnet/System.Net.Http.Rtc.dll",
@@ -13904,16 +14295,18 @@
         "ref/dotnet/zh-hant/System.Net.Http.Rtc.xml",
         "ref/netcore50/System.Net.Http.Rtc.dll",
         "ref/netcore50/System.Net.Http.Rtc.xml",
-        "ref/win8/_._"
+        "ref/win8/_._",
+        "system.net.http.rtc.4.0.0.nupkg.sha512",
+        "system.net.http.rtc.nuspec"
       ]
     },
     "System.Net.NetworkInformation/4.0.0": {
-      "sha512": "D68KCf5VK1G1GgFUwD901gU6cnMITksOdfdxUCt9ReCZfT1pigaDqjJ7XbiLAM4jm7TfZHB7g5mbOf1mbG3yBA==",
+      "sha512": "WNIln6iU30K5c9Yhq1ZmjOhHcNo0ZRD3CfGf5Xdp1/lUfteowomv2vfiZMhHu7A4X9uD5EvOfqqERPdVlhe/lg==",
       "type": "package",
       "path": "system.net.networkinformation/4.0.0",
       "files": [
-        "System.Net.NetworkInformation.4.0.0.nupkg.sha512",
-        "System.Net.NetworkInformation.nuspec",
+        ".nupkg.metadata",
+        ".signature.p7s",
         "lib/MonoAndroid10/_._",
         "lib/MonoTouch10/_._",
         "lib/net45/_._",
@@ -13943,16 +14336,18 @@
         "ref/wp80/_._",
         "ref/wpa81/_._",
         "ref/xamarinios10/_._",
-        "ref/xamarinmac20/_._"
+        "ref/xamarinmac20/_._",
+        "system.net.networkinformation.4.0.0.nupkg.sha512",
+        "system.net.networkinformation.nuspec"
       ]
     },
     "System.Net.Primitives/4.0.10": {
-      "sha512": "YQqIpmMhnKjIbT7rl6dlf7xM5DxaMR+whduZ9wKb9OhMLjoueAJO3HPPJI+Naf3v034kb+xZqdc3zo44o3HWcg==",
+      "sha512": "u/n108SDzDoul20zzjEjl1ZZ89JuAbBdIaG8gfdX4gtMFqs+DoaH0viVI2UaD+/tK+ksYHCSVA9s7Lz/t+0h5w==",
       "type": "package",
       "path": "system.net.primitives/4.0.10",
       "files": [
-        "System.Net.Primitives.4.0.10.nupkg.sha512",
-        "System.Net.Primitives.nuspec",
+        ".nupkg.metadata",
+        ".signature.p7s",
         "lib/DNXCore50/System.Net.Primitives.dll",
         "lib/MonoAndroid10/_._",
         "lib/MonoTouch10/_._",
@@ -13975,16 +14370,18 @@
         "ref/dotnet/zh-hant/System.Net.Primitives.xml",
         "ref/net46/_._",
         "ref/xamarinios10/_._",
-        "ref/xamarinmac20/_._"
+        "ref/xamarinmac20/_._",
+        "system.net.primitives.4.0.10.nupkg.sha512",
+        "system.net.primitives.nuspec"
       ]
     },
     "System.Net.Requests/4.0.10": {
-      "sha512": "A6XBR7TztiIQg6hx7VGfbBKmRTAavUERm2E7pmNz/gZeGvwyP0lcKHZxylJtNVKj7DPwr91bD87oLY6zZYntcg==",
+      "sha512": "NQtNVR+dEvUgxQUO48ImSqybkHKoLbh+Oluf6GicUZtnwh2wxvOv05jXJ2sSnrDpXkbhJUC5RZGU/kOrmHmMEg==",
       "type": "package",
       "path": "system.net.requests/4.0.10",
       "files": [
-        "System.Net.Requests.4.0.10.nupkg.sha512",
-        "System.Net.Requests.nuspec",
+        ".nupkg.metadata",
+        ".signature.p7s",
         "lib/MonoAndroid10/_._",
         "lib/MonoTouch10/_._",
         "lib/dotnet/System.Net.Requests.dll",
@@ -14006,16 +14403,18 @@
         "ref/dotnet/zh-hant/System.Net.Requests.xml",
         "ref/net46/_._",
         "ref/xamarinios10/_._",
-        "ref/xamarinmac20/_._"
+        "ref/xamarinmac20/_._",
+        "system.net.requests.4.0.10.nupkg.sha512",
+        "system.net.requests.nuspec"
       ]
     },
     "System.Net.Sockets/4.0.0": {
-      "sha512": "7bBNLdO6Xw0BGyFVSxjloGXMvsc3qQmW+70bYMLwHEAVivMK8zx+E7XO8CeJnAko2mFj6R402E798EGYUksFcQ==",
+      "sha512": "ulZDwtAxYPo4XTKXodzTZEYDuX7tKXe2dK7RHnPJpge66vS9uswwn+uXlhjIhF7Kge9nbTnff0NkbGq8pY/gGA==",
       "type": "package",
       "path": "system.net.sockets/4.0.0",
       "files": [
-        "System.Net.Sockets.4.0.0.nupkg.sha512",
-        "System.Net.Sockets.nuspec",
+        ".nupkg.metadata",
+        ".signature.p7s",
         "lib/MonoAndroid10/_._",
         "lib/MonoTouch10/_._",
         "lib/net46/System.Net.Sockets.dll",
@@ -14037,16 +14436,18 @@
         "ref/dotnet/zh-hant/System.Net.Sockets.xml",
         "ref/net46/System.Net.Sockets.dll",
         "ref/xamarinios10/_._",
-        "ref/xamarinmac20/_._"
+        "ref/xamarinmac20/_._",
+        "system.net.sockets.4.0.0.nupkg.sha512",
+        "system.net.sockets.nuspec"
       ]
     },
     "System.Net.WebHeaderCollection/4.0.0": {
-      "sha512": "IsIZAsHm/yK7R/XASnEc4EMffFLIMgYchG3/zJv6B4LwMnXZwrVlSPpNbPgEVb0lSXyztsn7A6sIPAACQQ2vTQ==",
+      "sha512": "Ti36OdSGWH/q/nc/IwTv9ColnLjOF1W0tpfMYFG3+7EhLpKeRpQal/tyzyLoh5t6H8UxgV08Cf3nk4llmfMtTQ==",
       "type": "package",
       "path": "system.net.webheadercollection/4.0.0",
       "files": [
-        "System.Net.WebHeaderCollection.4.0.0.nupkg.sha512",
-        "System.Net.WebHeaderCollection.nuspec",
+        ".nupkg.metadata",
+        ".signature.p7s",
         "lib/MonoAndroid10/_._",
         "lib/MonoTouch10/_._",
         "lib/dotnet/System.Net.WebHeaderCollection.dll",
@@ -14068,16 +14469,18 @@
         "ref/dotnet/zh-hant/System.Net.WebHeaderCollection.xml",
         "ref/net46/_._",
         "ref/xamarinios10/_._",
-        "ref/xamarinmac20/_._"
+        "ref/xamarinmac20/_._",
+        "system.net.webheadercollection.4.0.0.nupkg.sha512",
+        "system.net.webheadercollection.nuspec"
       ]
     },
     "System.Numerics.Vectors/4.1.0": {
-      "sha512": "jpubR06GWPoZA0oU5xLM7kHeV59/CKPBXZk4Jfhi0T3DafxbrdueHZ8kXlb+Fb5nd3DAyyMh2/eqEzLX0xv6Qg==",
+      "sha512": "76QoApmeRvCdzzztZmVBP80lfe8L/uDAds614IUPLUDw8NR8xea+lgC2oaXJ9oS5YxFudvVLObAG1twwpVYqkQ==",
       "type": "package",
       "path": "system.numerics.vectors/4.1.0",
       "files": [
-        "System.Numerics.Vectors.4.1.0.nupkg.sha512",
-        "System.Numerics.Vectors.nuspec",
+        ".nupkg.metadata",
+        ".signature.p7s",
         "lib/MonoAndroid10/_._",
         "lib/MonoTouch10/_._",
         "lib/dotnet/System.Numerics.Vectors.dll",
@@ -14089,26 +14492,30 @@
         "ref/dotnet/System.Numerics.Vectors.dll",
         "ref/net46/System.Numerics.Vectors.dll",
         "ref/xamarinios10/_._",
-        "ref/xamarinmac20/_._"
+        "ref/xamarinmac20/_._",
+        "system.numerics.vectors.4.1.0.nupkg.sha512",
+        "system.numerics.vectors.nuspec"
       ]
     },
     "System.Numerics.Vectors.WindowsRuntime/4.0.0": {
-      "sha512": "Ly7GvoPFZq6GyfZpfS0E7uCk1cinl5BANAngXVuau3lD2QqZJMHitzlPv6n1FlIn6krfv99X2IPkIaVzUwDHXA==",
+      "sha512": "n0BXnQKuCWmwxrOOstqypa+50Rxg5rDojNWWrYZsTm3UIA4bo7/hM6VUXCvi4Zi1dkHt3iEzpm8WwxsVlVqT+A==",
       "type": "package",
       "path": "system.numerics.vectors.windowsruntime/4.0.0",
       "files": [
-        "System.Numerics.Vectors.WindowsRuntime.4.0.0.nupkg.sha512",
-        "System.Numerics.Vectors.WindowsRuntime.nuspec",
-        "lib/dotnet/System.Numerics.Vectors.WindowsRuntime.dll"
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/dotnet/System.Numerics.Vectors.WindowsRuntime.dll",
+        "system.numerics.vectors.windowsruntime.4.0.0.nupkg.sha512",
+        "system.numerics.vectors.windowsruntime.nuspec"
       ]
     },
     "System.ObjectModel/4.0.10": {
-      "sha512": "Djn1wb0vP662zxbe+c3mOhvC4vkQGicsFs1Wi0/GJJpp3Eqp+oxbJ+p2Sx3O0efYueggAI5SW+BqEoczjfr1cA==",
+      "sha512": "vqGhBJz/wuSSyPcEyMRQsCF35t4gZEVPOnGGwdC3YtrU38ZbA38lURUkwFVCGsR4odjnuV6DigF3UE5VIwE1KA==",
       "type": "package",
       "path": "system.objectmodel/4.0.10",
       "files": [
-        "System.ObjectModel.4.0.10.nupkg.sha512",
-        "System.ObjectModel.nuspec",
+        ".nupkg.metadata",
+        ".signature.p7s",
         "lib/MonoAndroid10/_._",
         "lib/MonoTouch10/_._",
         "lib/dotnet/System.ObjectModel.dll",
@@ -14130,14 +14537,18 @@
         "ref/dotnet/zh-hant/System.ObjectModel.xml",
         "ref/net46/_._",
         "ref/xamarinios10/_._",
-        "ref/xamarinmac20/_._"
+        "ref/xamarinmac20/_._",
+        "system.objectmodel.4.0.10.nupkg.sha512",
+        "system.objectmodel.nuspec"
       ]
     },
     "System.Private.DataContractSerialization/4.0.0": {
-      "sha512": "uQvzoXHXHn/9YqUmPtgD8ZPJIlBuuL3QHegbuik97W/umoI28fOnGLnvjRHhju1VMWvFLRQoh7uZkBaoZ+KpVQ==",
+      "sha512": "gh7YjlADQcdNl++BPyrAX+xKwJ5BztiPiNxyH0/DefQ+Jk81aXcDlEASU6DT3T76QWKcDAnA1l2ml/SbvkpHrQ==",
       "type": "package",
       "path": "system.private.datacontractserialization/4.0.0",
       "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
         "lib/DNXCore50/System.Private.DataContractSerialization.dll",
         "lib/netcore50/System.Private.DataContractSerialization.dll",
         "ref/dnxcore50/_._",
@@ -14149,52 +14560,58 @@
       ]
     },
     "System.Private.Networking/4.0.0": {
-      "sha512": "RUEqdBdJjISC65dO8l4LdN7vTdlXH+attUpKnauDUHVtLbIKdlDB9LKoLzCQsTQRP7vzUJHWYXznHJBkjAA7yA==",
+      "sha512": "WZkjeGt1EAWxyE9NBKgbSxvoaFquEJpq/7y5Xeo39Jy0gMdivbrunFAXCsY/w+BRRaJNKyYCNhurs5ZoXUyCDg==",
       "type": "package",
       "path": "system.private.networking/4.0.0",
       "files": [
-        "System.Private.Networking.4.0.0.nupkg.sha512",
-        "System.Private.Networking.nuspec",
+        ".nupkg.metadata",
+        ".signature.p7s",
         "lib/DNXCore50/System.Private.Networking.dll",
         "lib/netcore50/System.Private.Networking.dll",
         "ref/dnxcore50/_._",
-        "ref/netcore50/_._"
+        "ref/netcore50/_._",
+        "system.private.networking.4.0.0.nupkg.sha512",
+        "system.private.networking.nuspec"
       ]
     },
     "System.Private.ServiceModel/4.0.0": {
-      "sha512": "cm2wEa1f9kuUq/2k8uIwepgZJi5HdxXSnjGQIeXmAb7RaWfZPEC/iamv9GJ67b5LPnCZHR0KvtFqh82e8AAYSw==",
+      "sha512": "fKy2QlUjyBN/pTRyTitJ1UF7HP0tyJsJN/M4rHpUS6dhz5cKu3SOvcP7+WDSbi1eHP9DYWYorejFYPz0Ylutqw==",
       "type": "package",
       "path": "system.private.servicemodel/4.0.0",
       "files": [
-        "System.Private.ServiceModel.4.0.0.nupkg.sha512",
-        "System.Private.ServiceModel.nuspec",
+        ".nupkg.metadata",
+        ".signature.p7s",
         "lib/DNXCore50/System.Private.ServiceModel.dll",
         "lib/netcore50/System.Private.ServiceModel.dll",
         "ref/dnxcore50/_._",
-        "ref/netcore50/_._"
+        "ref/netcore50/_._",
+        "system.private.servicemodel.4.0.0.nupkg.sha512",
+        "system.private.servicemodel.nuspec"
       ]
     },
     "System.Private.Uri/4.0.0": {
-      "sha512": "CtuxaCKcRIvPcsqquVl3mPp79EDZPMr2UogfiFCxCs+t2z1VjbpQsKNs1GHZ8VQetqbk1mr0V1yAfMe6y8CHDA==",
+      "sha512": "vADVRYk+g18rRgkJSv2zcOI/F67OToPbsS5OCjyDk9EcLjj075OR2GpqWxYNO2aXUJZVIjqjYa7Y5q0pBt14VQ==",
       "type": "package",
       "path": "system.private.uri/4.0.0",
       "files": [
-        "System.Private.Uri.4.0.0.nupkg.sha512",
-        "System.Private.Uri.nuspec",
+        ".nupkg.metadata",
+        ".signature.p7s",
         "lib/DNXCore50/System.Private.Uri.dll",
         "lib/netcore50/System.Private.Uri.dll",
         "ref/dnxcore50/_._",
         "ref/netcore50/_._",
-        "runtimes/win8-aot/lib/netcore50/System.Private.Uri.dll"
+        "runtimes/win8-aot/lib/netcore50/System.Private.Uri.dll",
+        "system.private.uri.4.0.0.nupkg.sha512",
+        "system.private.uri.nuspec"
       ]
     },
     "System.Reflection/4.0.10": {
-      "sha512": "WZ+4lEE4gqGx6mrqLhSiW4oi6QLPWwdNjzhhTONmhELOrW8Cw9phlO9tltgvRUuQUqYtBiliFwhO5S5fCJElVw==",
+      "sha512": "/R51G3Ttgr2HMfWKLPULq3/ZfZhkzR2HyNZ7joen+clWg3TzhlX5qxMHJ8pRfF2MwHNcB24bneasUfuLWxVPJw==",
       "type": "package",
       "path": "system.reflection/4.0.10",
       "files": [
-        "System.Reflection.4.0.10.nupkg.sha512",
-        "System.Reflection.nuspec",
+        ".nupkg.metadata",
+        ".signature.p7s",
         "lib/DNXCore50/System.Reflection.dll",
         "lib/MonoAndroid10/_._",
         "lib/MonoTouch10/_._",
@@ -14218,16 +14635,18 @@
         "ref/net46/_._",
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
-        "runtimes/win8-aot/lib/netcore50/System.Reflection.dll"
+        "runtimes/win8-aot/lib/netcore50/System.Reflection.dll",
+        "system.reflection.4.0.10.nupkg.sha512",
+        "system.reflection.nuspec"
       ]
     },
     "System.Reflection.Context/4.0.0": {
-      "sha512": "Gz4sUHHFd/52RjHccSHbOXdujJEWKfL3gIaA+ekxvQaQfJGbI2tPzA0Uv3WTCTDRGHgtoNq5WS9E007Dt4P/VQ==",
+      "sha512": "b3KytIh2/chlqGQ8TxxvZBoiJWXt3vVk7eXAKBY4nrFt1Ierx402ocKqpwEzJHjMfBWrVDEwW6UjtCeZKcl0eg==",
       "type": "package",
       "path": "system.reflection.context/4.0.0",
       "files": [
-        "System.Reflection.Context.4.0.0.nupkg.sha512",
-        "System.Reflection.Context.nuspec",
+        ".nupkg.metadata",
+        ".signature.p7s",
         "lib/net45/_._",
         "lib/netcore50/System.Reflection.Context.dll",
         "lib/win8/_._",
@@ -14245,16 +14664,18 @@
         "ref/net45/_._",
         "ref/netcore50/System.Reflection.Context.dll",
         "ref/netcore50/System.Reflection.Context.xml",
-        "ref/win8/_._"
+        "ref/win8/_._",
+        "system.reflection.context.4.0.0.nupkg.sha512",
+        "system.reflection.context.nuspec"
       ]
     },
     "System.Reflection.DispatchProxy/4.0.0": {
-      "sha512": "Kd/4o6DqBfJA4058X8oGEu1KlT8Ej0A+WGeoQgZU2h+3f2vC8NRbHxeOSZvxj9/MPZ1RYmZMGL1ApO9xG/4IVA==",
+      "sha512": "9xa4QUKkc+cT9W5X4s3wcxfXDuiGXjWm6NWM2tCLzE21qdLZHchYK2AcO9lR6+CeP2EqGWlMMyfV/DgR9QB7EA==",
       "type": "package",
       "path": "system.reflection.dispatchproxy/4.0.0",
       "files": [
-        "System.Reflection.DispatchProxy.4.0.0.nupkg.sha512",
-        "System.Reflection.DispatchProxy.nuspec",
+        ".nupkg.metadata",
+        ".signature.p7s",
         "lib/DNXCore50/System.Reflection.DispatchProxy.dll",
         "lib/MonoAndroid10/_._",
         "lib/MonoTouch10/_._",
@@ -14278,16 +14699,18 @@
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
         "runtime.json",
-        "runtimes/win8-aot/lib/netcore50/System.Reflection.DispatchProxy.dll"
+        "runtimes/win8-aot/lib/netcore50/System.Reflection.DispatchProxy.dll",
+        "system.reflection.dispatchproxy.4.0.0.nupkg.sha512",
+        "system.reflection.dispatchproxy.nuspec"
       ]
     },
     "System.Reflection.Emit/4.0.0": {
-      "sha512": "CqnQz5LbNbiSxN10cv3Ehnw3j1UZOBCxnE0OO0q/keGQ5ENjyFM6rIG4gm/i0dX6EjdpYkAgKcI/mhZZCaBq4A==",
+      "sha512": "Rqf9ySAFreEiiaivXe/MFsnayemVwObtXptq+Pbhpq8wz1HUNaqWX2VdYBopqTRzHQstlXYn854ItaMK3NjclQ==",
       "type": "package",
       "path": "system.reflection.emit/4.0.0",
       "files": [
-        "System.Reflection.Emit.4.0.0.nupkg.sha512",
-        "System.Reflection.Emit.nuspec",
+        ".nupkg.metadata",
+        ".signature.p7s",
         "lib/DNXCore50/System.Reflection.Emit.dll",
         "lib/MonoAndroid10/_._",
         "lib/net45/_._",
@@ -14306,16 +14729,18 @@
         "ref/dotnet/zh-hans/System.Reflection.Emit.xml",
         "ref/dotnet/zh-hant/System.Reflection.Emit.xml",
         "ref/net45/_._",
-        "ref/xamarinmac20/_._"
+        "ref/xamarinmac20/_._",
+        "system.reflection.emit.4.0.0.nupkg.sha512",
+        "system.reflection.emit.nuspec"
       ]
     },
     "System.Reflection.Emit.ILGeneration/4.0.0": {
-      "sha512": "02okuusJ0GZiHZSD2IOLIN41GIn6qOr7i5+86C98BPuhlwWqVABwebiGNvhDiXP1f9a6CxEigC7foQD42klcDg==",
+      "sha512": "+gvp2lMVTmisLDzn+dZIhoyucSuvXXMhYSHRLQ/rpT2eqec3m5GlYYOVmgNRrJLu0Hnb5ieLZ84d8/OMCJ6jiA==",
       "type": "package",
       "path": "system.reflection.emit.ilgeneration/4.0.0",
       "files": [
-        "System.Reflection.Emit.ILGeneration.4.0.0.nupkg.sha512",
-        "System.Reflection.Emit.ILGeneration.nuspec",
+        ".nupkg.metadata",
+        ".signature.p7s",
         "lib/DNXCore50/System.Reflection.Emit.ILGeneration.dll",
         "lib/net45/_._",
         "lib/netcore50/System.Reflection.Emit.ILGeneration.dll",
@@ -14332,16 +14757,18 @@
         "ref/dotnet/zh-hans/System.Reflection.Emit.ILGeneration.xml",
         "ref/dotnet/zh-hant/System.Reflection.Emit.ILGeneration.xml",
         "ref/net45/_._",
-        "ref/wp80/_._"
+        "ref/wp80/_._",
+        "system.reflection.emit.ilgeneration.4.0.0.nupkg.sha512",
+        "system.reflection.emit.ilgeneration.nuspec"
       ]
     },
     "System.Reflection.Emit.Lightweight/4.0.0": {
-      "sha512": "DJZhHiOdkN08xJgsJfDjkuOreLLmMcU8qkEEqEHqyhkPUZMMQs0lE8R+6+68BAFWgcdzxtNu0YmIOtEug8j00w==",
+      "sha512": "pwNmsQM57SZ+cMZhnE5IOSl+kca1LBdoWlBGZDxIp1nxKYMjEcOY35JwJJP0hbocBU4spmb1U7UvTF9e0W0Yzw==",
       "type": "package",
       "path": "system.reflection.emit.lightweight/4.0.0",
       "files": [
-        "System.Reflection.Emit.Lightweight.4.0.0.nupkg.sha512",
-        "System.Reflection.Emit.Lightweight.nuspec",
+        ".nupkg.metadata",
+        ".signature.p7s",
         "lib/DNXCore50/System.Reflection.Emit.Lightweight.dll",
         "lib/net45/_._",
         "lib/netcore50/System.Reflection.Emit.Lightweight.dll",
@@ -14358,16 +14785,18 @@
         "ref/dotnet/zh-hans/System.Reflection.Emit.Lightweight.xml",
         "ref/dotnet/zh-hant/System.Reflection.Emit.Lightweight.xml",
         "ref/net45/_._",
-        "ref/wp80/_._"
+        "ref/wp80/_._",
+        "system.reflection.emit.lightweight.4.0.0.nupkg.sha512",
+        "system.reflection.emit.lightweight.nuspec"
       ]
     },
     "System.Reflection.Extensions/4.0.0": {
-      "sha512": "dbYaZWCyFAu1TGYUqR2n+Q+1casSHPR2vVW0WVNkXpZbrd2BXcZ7cpvpu9C98CTHtNmyfMWCLpCclDqly23t6A==",
+      "sha512": "MkwyilOyHPELeEExXy19HGpp/wrtFvSjdsITwWCoXsvJIjfdMYu2WLMzQH6jiNpplsKGZ7In9pXOqBGQkaOToQ==",
       "type": "package",
       "path": "system.reflection.extensions/4.0.0",
       "files": [
-        "System.Reflection.Extensions.4.0.0.nupkg.sha512",
-        "System.Reflection.Extensions.nuspec",
+        ".nupkg.metadata",
+        ".signature.p7s",
         "lib/DNXCore50/System.Reflection.Extensions.dll",
         "lib/net45/_._",
         "lib/netcore50/System.Reflection.Extensions.dll",
@@ -14391,29 +14820,33 @@
         "ref/win8/_._",
         "ref/wp80/_._",
         "ref/wpa81/_._",
-        "runtimes/win8-aot/lib/netcore50/System.Reflection.Extensions.dll"
+        "runtimes/win8-aot/lib/netcore50/System.Reflection.Extensions.dll",
+        "system.reflection.extensions.4.0.0.nupkg.sha512",
+        "system.reflection.extensions.nuspec"
       ]
     },
     "System.Reflection.Metadata/1.0.22": {
-      "sha512": "ltoL/teiEdy5W9fyYdtFr2xJ/4nHyksXLK9dkPWx3ubnj7BVfsSWxvWTg9EaJUXjhWvS/AeTtugZA1/IDQyaPQ==",
+      "sha512": "JFziod53KBaX2DskRW47uqBZ7HQwRkmvSaQNteCR5ITrk/TrBUNU1QplG+p2yG5wR0gDiuebiT8X8aO6F6tZuA==",
       "type": "package",
       "path": "system.reflection.metadata/1.0.22",
       "files": [
-        "System.Reflection.Metadata.1.0.22.nupkg.sha512",
-        "System.Reflection.Metadata.nuspec",
+        ".nupkg.metadata",
+        ".signature.p7s",
         "lib/dotnet/System.Reflection.Metadata.dll",
         "lib/dotnet/System.Reflection.Metadata.xml",
         "lib/portable-net45+win8/System.Reflection.Metadata.dll",
-        "lib/portable-net45+win8/System.Reflection.Metadata.xml"
+        "lib/portable-net45+win8/System.Reflection.Metadata.xml",
+        "system.reflection.metadata.1.0.22.nupkg.sha512",
+        "system.reflection.metadata.nuspec"
       ]
     },
     "System.Reflection.Primitives/4.0.0": {
-      "sha512": "n9S0XpKv2ruc17FSnaiX6nV47VfHTZ1wLjKZlAirUZCvDQCH71mVp+Ohabn0xXLh5pK2PKp45HCxkqu5Fxn/lA==",
+      "sha512": "pLfhBPy0C9t14hTH/7SempSZqT2kbqNStQOwJKggUmAqnZMQtLgU/noO81ElGBq2tXMGKyis84Dt/NGQqugqkg==",
       "type": "package",
       "path": "system.reflection.primitives/4.0.0",
       "files": [
-        "System.Reflection.Primitives.4.0.0.nupkg.sha512",
-        "System.Reflection.Primitives.nuspec",
+        ".nupkg.metadata",
+        ".signature.p7s",
         "lib/DNXCore50/System.Reflection.Primitives.dll",
         "lib/net45/_._",
         "lib/netcore50/System.Reflection.Primitives.dll",
@@ -14437,16 +14870,18 @@
         "ref/win8/_._",
         "ref/wp80/_._",
         "ref/wpa81/_._",
-        "runtimes/win8-aot/lib/netcore50/System.Reflection.Primitives.dll"
+        "runtimes/win8-aot/lib/netcore50/System.Reflection.Primitives.dll",
+        "system.reflection.primitives.4.0.0.nupkg.sha512",
+        "system.reflection.primitives.nuspec"
       ]
     },
     "System.Reflection.TypeExtensions/4.0.0": {
-      "sha512": "YRM/msNAM86hdxPyXcuZSzmTO0RQFh7YMEPBLTY8cqXvFPYIx2x99bOyPkuU81wRYQem1c1HTkImQ2DjbOBfew==",
+      "sha512": "aoyCEHmnRwKC6d9AoaNXiCGs55SOsXG4IxLlOHMGGejIBKtHo5qUW4jpG83VJ6xB/dnZKhpCPRjsSTc/I4oSdw==",
       "type": "package",
       "path": "system.reflection.typeextensions/4.0.0",
       "files": [
-        "System.Reflection.TypeExtensions.4.0.0.nupkg.sha512",
-        "System.Reflection.TypeExtensions.nuspec",
+        ".nupkg.metadata",
+        ".signature.p7s",
         "lib/DNXCore50/System.Reflection.TypeExtensions.dll",
         "lib/MonoAndroid10/_._",
         "lib/MonoTouch10/_._",
@@ -14470,16 +14905,18 @@
         "ref/net46/System.Reflection.TypeExtensions.dll",
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
-        "runtimes/win8-aot/lib/netcore50/System.Reflection.TypeExtensions.dll"
+        "runtimes/win8-aot/lib/netcore50/System.Reflection.TypeExtensions.dll",
+        "system.reflection.typeextensions.4.0.0.nupkg.sha512",
+        "system.reflection.typeextensions.nuspec"
       ]
     },
     "System.Resources.ResourceManager/4.0.0": {
-      "sha512": "qmqeZ4BJgjfU+G2JbrZt4Dk1LsMxO4t+f/9HarNY6w8pBgweO6jT+cknUH7c3qIrGvyUqraBhU45Eo6UtA0fAw==",
+      "sha512": "77X5uRDBRtt6snpiwYwiaPT7hg3q6xjzeRP2wW7xFT+nMY5iXUa/kXv065y2EISQY1Vb7tfKXSORoTbVzjmX7w==",
       "type": "package",
       "path": "system.resources.resourcemanager/4.0.0",
       "files": [
-        "System.Resources.ResourceManager.4.0.0.nupkg.sha512",
-        "System.Resources.ResourceManager.nuspec",
+        ".nupkg.metadata",
+        ".signature.p7s",
         "lib/DNXCore50/System.Resources.ResourceManager.dll",
         "lib/net45/_._",
         "lib/netcore50/System.Resources.ResourceManager.dll",
@@ -14503,16 +14940,18 @@
         "ref/win8/_._",
         "ref/wp80/_._",
         "ref/wpa81/_._",
-        "runtimes/win8-aot/lib/netcore50/System.Resources.ResourceManager.dll"
+        "runtimes/win8-aot/lib/netcore50/System.Resources.ResourceManager.dll",
+        "system.resources.resourcemanager.4.0.0.nupkg.sha512",
+        "system.resources.resourcemanager.nuspec"
       ]
     },
     "System.Runtime/4.0.20": {
-      "sha512": "X7N/9Bz7jVPorqdVFO86ns1sX6MlQM+WTxELtx+Z4VG45x9+LKmWH0GRqjgKprUnVuwmfB9EJ9DQng14Z7/zwg==",
+      "sha512": "EOEXLfDu3ALx4jh4BtVXICbbYfXqn1x4ddHRV7CphI1tuzlgVlwQ9bNoliaarDRTDXePYy0l8MNl338uvI0KuQ==",
       "type": "package",
       "path": "system.runtime/4.0.20",
       "files": [
-        "System.Runtime.4.0.20.nupkg.sha512",
-        "System.Runtime.nuspec",
+        ".nupkg.metadata",
+        ".signature.p7s",
         "lib/DNXCore50/System.Runtime.dll",
         "lib/MonoAndroid10/_._",
         "lib/MonoTouch10/_._",
@@ -14536,16 +14975,18 @@
         "ref/net46/_._",
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
-        "runtimes/win8-aot/lib/netcore50/System.Runtime.dll"
+        "runtimes/win8-aot/lib/netcore50/System.Runtime.dll",
+        "system.runtime.4.0.20.nupkg.sha512",
+        "system.runtime.nuspec"
       ]
     },
     "System.Runtime.Extensions/4.0.10": {
-      "sha512": "5dsEwf3Iml7d5OZeT20iyOjT+r+okWpN7xI2v+R4cgd3WSj4DeRPTvPFjDpacbVW4skCAZ8B9hxXJYgkCFKJ1A==",
+      "sha512": "+imkHc/8YD/7O7MU/vlr7iT+AmhiiIsui8Ivt3LwDzt5YXVhl1C7IabOxMAjyViTrK5j2XooPk2OVk3N94KFvA==",
       "type": "package",
       "path": "system.runtime.extensions/4.0.10",
       "files": [
-        "System.Runtime.Extensions.4.0.10.nupkg.sha512",
-        "System.Runtime.Extensions.nuspec",
+        ".nupkg.metadata",
+        ".signature.p7s",
         "lib/DNXCore50/System.Runtime.Extensions.dll",
         "lib/MonoAndroid10/_._",
         "lib/MonoTouch10/_._",
@@ -14569,16 +15010,18 @@
         "ref/net46/_._",
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
-        "runtimes/win8-aot/lib/netcore50/System.Runtime.Extensions.dll"
+        "runtimes/win8-aot/lib/netcore50/System.Runtime.Extensions.dll",
+        "system.runtime.extensions.4.0.10.nupkg.sha512",
+        "system.runtime.extensions.nuspec"
       ]
     },
     "System.Runtime.Handles/4.0.0": {
-      "sha512": "638VhpRq63tVcQ6HDb3um3R/J2BtR1Sa96toHo6PcJGPXEPEsleCuqhBgX2gFCz0y0qkutANwW6VPPY5wQu1XQ==",
+      "sha512": "LWibrbGIxC2A8PJ6f+0kdrDVdEsgeN0nq3OXDZi+FVwbjlUm1P5KnhwmUkssPHjsGnWZkvOSfLa/6mZL98KzOA==",
       "type": "package",
       "path": "system.runtime.handles/4.0.0",
       "files": [
-        "System.Runtime.Handles.4.0.0.nupkg.sha512",
-        "System.Runtime.Handles.nuspec",
+        ".nupkg.metadata",
+        ".signature.p7s",
         "lib/DNXCore50/System.Runtime.Handles.dll",
         "lib/MonoAndroid10/_._",
         "lib/MonoTouch10/_._",
@@ -14602,16 +15045,18 @@
         "ref/net46/_._",
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
-        "runtimes/win8-aot/lib/netcore50/System.Runtime.Handles.dll"
+        "runtimes/win8-aot/lib/netcore50/System.Runtime.Handles.dll",
+        "system.runtime.handles.4.0.0.nupkg.sha512",
+        "system.runtime.handles.nuspec"
       ]
     },
     "System.Runtime.InteropServices/4.0.20": {
-      "sha512": "ZgDyBYfEnjWoz/viS6VOswA6XOkDSH2DzgbpczbW50RywhnCgTl+w3JEvtAiOGyIh8cyx1NJq80jsNBSUr8Pig==",
+      "sha512": "gQfToRzmAhlQweguHPlCW9J0SxLxbkX9Vnvf+F3+0RGB89TMI4w+5pUHDeSGOftDl4ZvTf2+vMm+Sj/6bSwXJA==",
       "type": "package",
       "path": "system.runtime.interopservices/4.0.20",
       "files": [
-        "System.Runtime.InteropServices.4.0.20.nupkg.sha512",
-        "System.Runtime.InteropServices.nuspec",
+        ".nupkg.metadata",
+        ".signature.p7s",
         "lib/DNXCore50/System.Runtime.InteropServices.dll",
         "lib/MonoAndroid10/_._",
         "lib/MonoTouch10/_._",
@@ -14635,16 +15080,18 @@
         "ref/net46/_._",
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
-        "runtimes/win8-aot/lib/netcore50/System.Runtime.InteropServices.dll"
+        "runtimes/win8-aot/lib/netcore50/System.Runtime.InteropServices.dll",
+        "system.runtime.interopservices.4.0.20.nupkg.sha512",
+        "system.runtime.interopservices.nuspec"
       ]
     },
     "System.Runtime.InteropServices.WindowsRuntime/4.0.0": {
-      "sha512": "K5MGSvw/sGPKQYdOVqSpsVbHBE8HccHIDEhUNjM1lui65KGF/slNZfijGU87ggQiVXTI802ebKiOYBkwiLotow==",
+      "sha512": "dRPOTCr4nTeg3PBesBXh2pBlAbxbq8hMuYucx+EttJCgjYPpr8FcGPsnN00Xs8rq4AfmRsoZMkQUSfKDryBqiQ==",
       "type": "package",
       "path": "system.runtime.interopservices.windowsruntime/4.0.0",
       "files": [
-        "System.Runtime.InteropServices.WindowsRuntime.4.0.0.nupkg.sha512",
-        "System.Runtime.InteropServices.WindowsRuntime.nuspec",
+        ".nupkg.metadata",
+        ".signature.p7s",
         "lib/net45/_._",
         "lib/netcore50/System.Runtime.InteropServices.WindowsRuntime.dll",
         "lib/win8/_._",
@@ -14667,16 +15114,18 @@
         "ref/win8/_._",
         "ref/wp80/_._",
         "ref/wpa81/_._",
-        "runtimes/win8-aot/lib/netcore50/System.Runtime.InteropServices.WindowsRuntime.dll"
+        "runtimes/win8-aot/lib/netcore50/System.Runtime.InteropServices.WindowsRuntime.dll",
+        "system.runtime.interopservices.windowsruntime.4.0.0.nupkg.sha512",
+        "system.runtime.interopservices.windowsruntime.nuspec"
       ]
     },
     "System.Runtime.Numerics/4.0.0": {
-      "sha512": "aAYGEOE01nabQLufQ4YO8WuSyZzOqGcksi8m1BRW8ppkmssR7en8TqiXcBkB2gTkCnKG/Ai2NQY8CgdmgZw/fw==",
+      "sha512": "8uRMsXdTtRZQcO+Iv2kRICGSQkwWzto72WXspOsIA2yU9/sGqm4yoFWC7xo0+d+1P9GS0jV/sZGecEuGtCtpQw==",
       "type": "package",
       "path": "system.runtime.numerics/4.0.0",
       "files": [
-        "System.Runtime.Numerics.4.0.0.nupkg.sha512",
-        "System.Runtime.Numerics.nuspec",
+        ".nupkg.metadata",
+        ".signature.p7s",
         "lib/dotnet/System.Runtime.Numerics.dll",
         "lib/net45/_._",
         "lib/netcore50/System.Runtime.Numerics.dll",
@@ -14697,14 +15146,18 @@
         "ref/netcore50/System.Runtime.Numerics.dll",
         "ref/netcore50/System.Runtime.Numerics.xml",
         "ref/win8/_._",
-        "ref/wpa81/_._"
+        "ref/wpa81/_._",
+        "system.runtime.numerics.4.0.0.nupkg.sha512",
+        "system.runtime.numerics.nuspec"
       ]
     },
     "System.Runtime.Serialization.Json/4.0.0": {
-      "sha512": "emhWMQP3sdtkAhD0TOeP3FfjS57sfQMQ2sqA6f2Yj5Gd9jkHV4KsQ2TsoJjghca6d8fur7+REQ6ILBXVdGf/0g==",
+      "sha512": "y6VHylbwAXUaj1wJrnVlxeC2AfLAAtqmo8FP3BgI32rdi5Mob0naW9jvN1lgRCwoqDOn3pIg9tN+6T4ruHXClg==",
       "type": "package",
       "path": "system.runtime.serialization.json/4.0.0",
       "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
         "lib/DNXCore50/System.Runtime.Serialization.Json.dll",
         "lib/net45/_._",
         "lib/netcore50/System.Runtime.Serialization.Json.dll",
@@ -14734,10 +15187,12 @@
       ]
     },
     "System.Runtime.Serialization.Primitives/4.0.10": {
-      "sha512": "NPc8DZIomf5tGjYtz/KTHI01IPcVlypfhCux32AbLPDjTotdvL8TpKRwMyQJ6Kh08yprRVH7uBD1PdJiuoFzag==",
+      "sha512": "bKHkZi9fqePdZZtWNTX8AgICm57fembr/XNoKwBvrX1Ha8FypwDALjYRomI++efVl6f1d/YHTHyFrRx260Qe0g==",
       "type": "package",
       "path": "system.runtime.serialization.primitives/4.0.10",
       "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
         "lib/MonoAndroid10/_._",
         "lib/MonoTouch10/_._",
         "lib/dotnet/System.Runtime.Serialization.Primitives.dll",
@@ -14765,10 +15220,12 @@
       ]
     },
     "System.Runtime.Serialization.Xml/4.0.10": {
-      "sha512": "xsy7XbH8RTpKoDPNcibSGCOpujsmwUmOWAby3PssqkZFpLBXUbDO2s6JKITRjxejET2g0PK8t+mdIvu3xmUuKA==",
+      "sha512": "CQR/X6Y0oOkXU4bY66OdLARwR2RBX0weoAxklN9UOOaF7DV8w8Ty006KKJiexxK+dzklHFcVe9K3iedb1C7KxA==",
       "type": "package",
       "path": "system.runtime.serialization.xml/4.0.10",
       "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
         "lib/DNXCore50/System.Runtime.Serialization.Xml.dll",
         "lib/MonoAndroid10/_._",
         "lib/MonoTouch10/_._",
@@ -14798,12 +15255,12 @@
       ]
     },
     "System.Runtime.WindowsRuntime/4.0.10": {
-      "sha512": "9w6ypdnEw8RrLRlxTbLAYrap4eL1xIQeNoOaumQVOQ8TTD/5g9FGrBtY3KLiGxAPieN9AwAAEIDkugU85Cwuvg==",
+      "sha512": "FmS+axxftGF03z1TezGcOot7VamFKfd6POBfnX88OfV0dB8TIBiNehdS4ItQu14TnMA9EPGUHdynPb6KrcZu7w==",
       "type": "package",
       "path": "system.runtime.windowsruntime/4.0.10",
       "files": [
-        "System.Runtime.WindowsRuntime.4.0.10.nupkg.sha512",
-        "System.Runtime.WindowsRuntime.nuspec",
+        ".nupkg.metadata",
+        ".signature.p7s",
         "lib/netcore50/System.Runtime.WindowsRuntime.dll",
         "lib/win81/_._",
         "lib/wpa81/_._",
@@ -14822,16 +15279,18 @@
         "ref/netcore50/System.Runtime.WindowsRuntime.xml",
         "ref/win81/_._",
         "ref/wpa81/_._",
-        "runtimes/win8-aot/lib/netcore50/System.Runtime.WindowsRuntime.dll"
+        "runtimes/win8-aot/lib/netcore50/System.Runtime.WindowsRuntime.dll",
+        "system.runtime.windowsruntime.4.0.10.nupkg.sha512",
+        "system.runtime.windowsruntime.nuspec"
       ]
     },
     "System.Runtime.WindowsRuntime.UI.Xaml/4.0.0": {
-      "sha512": "2GY3fkXBMQOyyO9ovaH46CN6MD2ck/Gvk4VNAgVDvtmfO3HXYFNd+bB05WhVcJrHKbfKZNwfwZKpYZ+OsVFsLw==",
+      "sha512": "NHok9nrNJlTdLtE7eJNDDI39g3rKBExzHFSGr33YoMrXpDB41SS7Q7uJ9lPa7Abk35vNtReTdpk0HFFkh+o7tw==",
       "type": "package",
       "path": "system.runtime.windowsruntime.ui.xaml/4.0.0",
       "files": [
-        "System.Runtime.WindowsRuntime.UI.Xaml.4.0.0.nupkg.sha512",
-        "System.Runtime.WindowsRuntime.UI.Xaml.nuspec",
+        ".nupkg.metadata",
+        ".signature.p7s",
         "lib/netcore50/System.Runtime.WindowsRuntime.UI.Xaml.dll",
         "lib/win8/_._",
         "lib/wpa81/_._",
@@ -14849,16 +15308,18 @@
         "ref/netcore50/System.Runtime.WindowsRuntime.UI.Xaml.dll",
         "ref/netcore50/System.Runtime.WindowsRuntime.UI.Xaml.xml",
         "ref/win8/_._",
-        "ref/wpa81/_._"
+        "ref/wpa81/_._",
+        "system.runtime.windowsruntime.ui.xaml.4.0.0.nupkg.sha512",
+        "system.runtime.windowsruntime.ui.xaml.nuspec"
       ]
     },
     "System.Security.Claims/4.0.0": {
-      "sha512": "94NFR/7JN3YdyTH7hl2iSvYmdA8aqShriTHectcK+EbizT71YczMaG6LuqJBQP/HWo66AQyikYYM9aw+4EzGXg==",
+      "sha512": "7sjAdhIM/hEMJlvzWhk4jFam1TbMVRAQFJXS60al/GHhxWgoBlS7HTaFNcd9l0gBjyeKEeXX0eATrwpWQgp+KA==",
       "type": "package",
       "path": "system.security.claims/4.0.0",
       "files": [
-        "System.Security.Claims.4.0.0.nupkg.sha512",
-        "System.Security.Claims.nuspec",
+        ".nupkg.metadata",
+        ".signature.p7s",
         "lib/MonoAndroid10/_._",
         "lib/MonoTouch10/_._",
         "lib/dotnet/System.Security.Claims.dll",
@@ -14880,16 +15341,18 @@
         "ref/dotnet/zh-hant/System.Security.Claims.xml",
         "ref/net46/System.Security.Claims.dll",
         "ref/xamarinios10/_._",
-        "ref/xamarinmac20/_._"
+        "ref/xamarinmac20/_._",
+        "system.security.claims.4.0.0.nupkg.sha512",
+        "system.security.claims.nuspec"
       ]
     },
     "System.Security.Principal/4.0.0": {
-      "sha512": "FOhq3jUOONi6fp5j3nPYJMrKtSJlqAURpjiO3FaDIV4DJNEYymWW5uh1pfxySEB8dtAW+I66IypzNge/w9OzZQ==",
+      "sha512": "nJ1tJrovo5LgQrsuobP1ByOWwrxWjbxou+ifIoH4pth549Yh1ISfomgzP6yDWFgSYDVzu8miY8ZP0MT4QQtEqg==",
       "type": "package",
       "path": "system.security.principal/4.0.0",
       "files": [
-        "System.Security.Principal.4.0.0.nupkg.sha512",
-        "System.Security.Principal.nuspec",
+        ".nupkg.metadata",
+        ".signature.p7s",
         "lib/dotnet/System.Security.Principal.dll",
         "lib/net45/_._",
         "lib/netcore50/System.Security.Principal.dll",
@@ -14912,16 +15375,18 @@
         "ref/netcore50/System.Security.Principal.xml",
         "ref/win8/_._",
         "ref/wp80/_._",
-        "ref/wpa81/_._"
+        "ref/wpa81/_._",
+        "system.security.principal.4.0.0.nupkg.sha512",
+        "system.security.principal.nuspec"
       ]
     },
     "System.ServiceModel.Duplex/4.0.0": {
-      "sha512": "JFeDn+IsiwAVJkNNnM7MLefJOnzYhovaHnjk3lzEnUWkYZJeAKrcgLdK6GE2GNjb5mEV8Pad/E0JcA8eCr3eWQ==",
+      "sha512": "GWrLFlxpXOevTgvOrEWZG28EG65saxqWmk/8AsR257Xp95VjqgWGoTEDJD1tpCjvcwSFZpuEAcSWojN8Kgew3A==",
       "type": "package",
       "path": "system.servicemodel.duplex/4.0.0",
       "files": [
-        "System.ServiceModel.Duplex.4.0.0.nupkg.sha512",
-        "System.ServiceModel.Duplex.nuspec",
+        ".nupkg.metadata",
+        ".signature.p7s",
         "lib/DNXCore50/System.ServiceModel.Duplex.dll",
         "lib/net45/_._",
         "lib/netcore50/System.ServiceModel.Duplex.dll",
@@ -14940,16 +15405,18 @@
         "ref/net45/_._",
         "ref/netcore50/System.ServiceModel.Duplex.dll",
         "ref/netcore50/System.ServiceModel.Duplex.xml",
-        "ref/win8/_._"
+        "ref/win8/_._",
+        "system.servicemodel.duplex.4.0.0.nupkg.sha512",
+        "system.servicemodel.duplex.nuspec"
       ]
     },
     "System.ServiceModel.Http/4.0.10": {
-      "sha512": "Vyl7lmvMlXJamtnDugoXuAgAQGSqtA7omK3zDBYByhbYeBC2hRBchgyXox7e5vEO+29TeB1IpoLWQGb7tO9h6A==",
+      "sha512": "OQrCcQ4wUKxBZpsG/VK6YPkuLEkZlU4Bzdg6u/04w35IrkkkI9Etd/pVFDAwQ6oHgo7NUvGKN49aFCwM11gBfw==",
       "type": "package",
       "path": "system.servicemodel.http/4.0.10",
       "files": [
-        "System.ServiceModel.Http.4.0.10.nupkg.sha512",
-        "System.ServiceModel.Http.nuspec",
+        ".nupkg.metadata",
+        ".signature.p7s",
         "lib/DNXCore50/System.ServiceModel.Http.dll",
         "lib/MonoAndroid10/_._",
         "lib/MonoTouch10/_._",
@@ -14972,16 +15439,18 @@
         "ref/dotnet/zh-hant/System.ServiceModel.Http.xml",
         "ref/net46/_._",
         "ref/xamarinios10/_._",
-        "ref/xamarinmac20/_._"
+        "ref/xamarinmac20/_._",
+        "system.servicemodel.http.4.0.10.nupkg.sha512",
+        "system.servicemodel.http.nuspec"
       ]
     },
     "System.ServiceModel.NetTcp/4.0.0": {
-      "sha512": "lV2Cdcso9jOS0KBtgHZHzTLe/Lx/ERdPcvF4dlepUie6/+BOMYTOgg2C7OdpIjp3fwUNXq8nhU+IilmEyjuf/A==",
+      "sha512": "rGeqlIzuodfLcNMY9gXfT6H8Jqod6hsVlNFO6mEjdeX5nmzYtf2nvtlzaEqoNQeM99E9CxAGr8iuhNVe+WMVIQ==",
       "type": "package",
       "path": "system.servicemodel.nettcp/4.0.0",
       "files": [
-        "System.ServiceModel.NetTcp.4.0.0.nupkg.sha512",
-        "System.ServiceModel.NetTcp.nuspec",
+        ".nupkg.metadata",
+        ".signature.p7s",
         "lib/DNXCore50/System.ServiceModel.NetTcp.dll",
         "lib/net45/_._",
         "lib/netcore50/System.ServiceModel.NetTcp.dll",
@@ -15000,16 +15469,18 @@
         "ref/net45/_._",
         "ref/netcore50/System.ServiceModel.NetTcp.dll",
         "ref/netcore50/System.ServiceModel.NetTcp.xml",
-        "ref/win8/_._"
+        "ref/win8/_._",
+        "system.servicemodel.nettcp.4.0.0.nupkg.sha512",
+        "system.servicemodel.nettcp.nuspec"
       ]
     },
     "System.ServiceModel.Primitives/4.0.0": {
-      "sha512": "uF5VYQWR07LgiZkzUr8qjwvqOaIAfwU566MneD4WuC14d8FLJNsAgCJUYhBGB7COjH7HTqnP9ZFmr6c+L83Stg==",
+      "sha512": "D5zmvq44EYiaPayd/6QrQSTQ2FwOls7PLGDSlf8omKMLwKQ4oEMOI1B+av2oyX+YRhyZaffn3tYES/t6XN/Cpw==",
       "type": "package",
       "path": "system.servicemodel.primitives/4.0.0",
       "files": [
-        "System.ServiceModel.Primitives.4.0.0.nupkg.sha512",
-        "System.ServiceModel.Primitives.nuspec",
+        ".nupkg.metadata",
+        ".signature.p7s",
         "lib/DNXCore50/System.ServiceModel.Primitives.dll",
         "lib/net45/_._",
         "lib/netcore50/System.ServiceModel.Primitives.dll",
@@ -15028,16 +15499,18 @@
         "ref/net45/_._",
         "ref/netcore50/System.ServiceModel.Primitives.dll",
         "ref/netcore50/System.ServiceModel.Primitives.xml",
-        "ref/win8/_._"
+        "ref/win8/_._",
+        "system.servicemodel.primitives.4.0.0.nupkg.sha512",
+        "system.servicemodel.primitives.nuspec"
       ]
     },
     "System.ServiceModel.Security/4.0.0": {
-      "sha512": "sPVzsnd8w/TJsW/4sYA9eIGP+RtlpN0AhKLGKf9ywdGGmHPi0kkuX2mx412dM3GN0e4oifuISwvZqby/sI8Feg==",
+      "sha512": "2eYrBgRlkn0C2u0TpRrkbslAyQZX1xckdxcUccrrcceA69weccRMrPCPOOD77a4qS2Xn1Ez15scMqRR7mk7abg==",
       "type": "package",
       "path": "system.servicemodel.security/4.0.0",
       "files": [
-        "System.ServiceModel.Security.4.0.0.nupkg.sha512",
-        "System.ServiceModel.Security.nuspec",
+        ".nupkg.metadata",
+        ".signature.p7s",
         "lib/DNXCore50/System.ServiceModel.Security.dll",
         "lib/net45/_._",
         "lib/netcore50/System.ServiceModel.Security.dll",
@@ -15056,16 +15529,18 @@
         "ref/net45/_._",
         "ref/netcore50/System.ServiceModel.Security.dll",
         "ref/netcore50/System.ServiceModel.Security.xml",
-        "ref/win8/_._"
+        "ref/win8/_._",
+        "system.servicemodel.security.4.0.0.nupkg.sha512",
+        "system.servicemodel.security.nuspec"
       ]
     },
     "System.Text.Encoding/4.0.10": {
-      "sha512": "fNlSFgy4OuDlJrP9SFFxMlaLazq6ipv15sU5TiEgg9UCVnA/OgoVUfymFp4AOk1jOkW5SVxWbeeIUptcM+m/Vw==",
+      "sha512": "2bG1FsFqLnN4Zf+g0ESHk7ZFIsB73yPd5BQwyH/JendHlb7FqPL0Gg42jiuUExGyaoVQATlx+g7OXgvQLHedQA==",
       "type": "package",
       "path": "system.text.encoding/4.0.10",
       "files": [
-        "System.Text.Encoding.4.0.10.nupkg.sha512",
-        "System.Text.Encoding.nuspec",
+        ".nupkg.metadata",
+        ".signature.p7s",
         "lib/DNXCore50/System.Text.Encoding.dll",
         "lib/MonoAndroid10/_._",
         "lib/MonoTouch10/_._",
@@ -15089,16 +15564,18 @@
         "ref/net46/_._",
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
-        "runtimes/win8-aot/lib/netcore50/System.Text.Encoding.dll"
+        "runtimes/win8-aot/lib/netcore50/System.Text.Encoding.dll",
+        "system.text.encoding.4.0.10.nupkg.sha512",
+        "system.text.encoding.nuspec"
       ]
     },
     "System.Text.Encoding.CodePages/4.0.0": {
-      "sha512": "ZHBTr1AXLjY9OuYR7pKx5xfN6QFye1kgd5QAbGrvfCOu7yxRnJs3VUaxERe1fOlnF0mi/xD/Dvb3T3x3HNuPWQ==",
+      "sha512": "hStor74+c4dsd+rl79B+YGKBC+dX4+LzrnOq1uD4jm8mH4QhI4LSKPg/0qCnvs4SPl9g3ZyR/IGc1c8M3ZtbPw==",
       "type": "package",
       "path": "system.text.encoding.codepages/4.0.0",
       "files": [
-        "System.Text.Encoding.CodePages.4.0.0.nupkg.sha512",
-        "System.Text.Encoding.CodePages.nuspec",
+        ".nupkg.metadata",
+        ".signature.p7s",
         "lib/MonoAndroid10/_._",
         "lib/MonoTouch10/_._",
         "lib/dotnet/System.Text.Encoding.CodePages.dll",
@@ -15118,16 +15595,18 @@
         "ref/dotnet/zh-hans/System.Text.Encoding.CodePages.xml",
         "ref/dotnet/zh-hant/System.Text.Encoding.CodePages.xml",
         "ref/xamarinios10/_._",
-        "ref/xamarinmac20/_._"
+        "ref/xamarinmac20/_._",
+        "system.text.encoding.codepages.4.0.0.nupkg.sha512",
+        "system.text.encoding.codepages.nuspec"
       ]
     },
     "System.Text.Encoding.Extensions/4.0.10": {
-      "sha512": "TZvlwXMxKo3bSRIcsWZLCIzIhLbvlz+mGeKYRZv/zUiSoQzGOwkYeBu6hOw2XPQgKqT0F4Rv8zqKdvmp2fWKYg==",
+      "sha512": "1eA00VYfDgUXD0UMhwrDAypN89F70g0n2BNcFJU4OTQ3asg3e0BSQaZupZQQluccqDv/fLWyHTaRfZH+INU6yg==",
       "type": "package",
       "path": "system.text.encoding.extensions/4.0.10",
       "files": [
-        "System.Text.Encoding.Extensions.4.0.10.nupkg.sha512",
-        "System.Text.Encoding.Extensions.nuspec",
+        ".nupkg.metadata",
+        ".signature.p7s",
         "lib/DNXCore50/System.Text.Encoding.Extensions.dll",
         "lib/MonoAndroid10/_._",
         "lib/MonoTouch10/_._",
@@ -15151,16 +15630,18 @@
         "ref/net46/_._",
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
-        "runtimes/win8-aot/lib/netcore50/System.Text.Encoding.Extensions.dll"
+        "runtimes/win8-aot/lib/netcore50/System.Text.Encoding.Extensions.dll",
+        "system.text.encoding.extensions.4.0.10.nupkg.sha512",
+        "system.text.encoding.extensions.nuspec"
       ]
     },
     "System.Text.RegularExpressions/4.0.10": {
-      "sha512": "0vDuHXJePpfMCecWBNOabOKCvzfTbFMNcGgklt3l5+RqHV5SzmF7RUVpuet8V0rJX30ROlL66xdehw2Rdsn2DA==",
+      "sha512": "yxuI7b7vEc7P8YTXib8qf97lmU1ApY4JWOslURPzX3AFxpl++N7iO3rw0EZpjLP2yUWP5Pb+l/zbsB/6RMArYQ==",
       "type": "package",
       "path": "system.text.regularexpressions/4.0.10",
       "files": [
-        "System.Text.RegularExpressions.4.0.10.nupkg.sha512",
-        "System.Text.RegularExpressions.nuspec",
+        ".nupkg.metadata",
+        ".signature.p7s",
         "lib/MonoAndroid10/_._",
         "lib/MonoTouch10/_._",
         "lib/dotnet/System.Text.RegularExpressions.dll",
@@ -15182,16 +15663,18 @@
         "ref/dotnet/zh-hant/System.Text.RegularExpressions.xml",
         "ref/net46/_._",
         "ref/xamarinios10/_._",
-        "ref/xamarinmac20/_._"
+        "ref/xamarinmac20/_._",
+        "system.text.regularexpressions.4.0.10.nupkg.sha512",
+        "system.text.regularexpressions.nuspec"
       ]
     },
     "System.Threading/4.0.10": {
-      "sha512": "0w6pRxIEE7wuiOJeKabkDgeIKmqf4ER1VNrs6qFwHnooEE78yHwi/bKkg5Jo8/pzGLm0xQJw0nEmPXt1QBAIUA==",
+      "sha512": "eUVAXgrZJQATTIP2B6snGB2OnpNjAjq9nyjFb/pdlzj712BbKXBEDbVXmb4KicLARrJU1Rvz6cRic4rK4DS6jA==",
       "type": "package",
       "path": "system.threading/4.0.10",
       "files": [
-        "System.Threading.4.0.10.nupkg.sha512",
-        "System.Threading.nuspec",
+        ".nupkg.metadata",
+        ".signature.p7s",
         "lib/DNXCore50/System.Threading.dll",
         "lib/MonoAndroid10/_._",
         "lib/MonoTouch10/_._",
@@ -15215,16 +15698,18 @@
         "ref/net46/_._",
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
-        "runtimes/win8-aot/lib/netcore50/System.Threading.dll"
+        "runtimes/win8-aot/lib/netcore50/System.Threading.dll",
+        "system.threading.4.0.10.nupkg.sha512",
+        "system.threading.nuspec"
       ]
     },
     "System.Threading.Overlapped/4.0.0": {
-      "sha512": "X5LuQFhM5FTqaez3eXKJ9CbfSGZ7wj6j4hSVtxct3zmwQXLqG95qoWdvILcgN7xtrDOBIFtpiyDg0vmoI0jE2A==",
+      "sha512": "3EaHiijHpkTsTQyq/KVQ9Yt91fZhHxSvOFzcrwmqQlbCfCD8e39tNk6ZLMY1pxXKmCrrqKqRqrD+v2/o3dn2Jg==",
       "type": "package",
       "path": "system.threading.overlapped/4.0.0",
       "files": [
-        "System.Threading.Overlapped.4.0.0.nupkg.sha512",
-        "System.Threading.Overlapped.nuspec",
+        ".nupkg.metadata",
+        ".signature.p7s",
         "lib/DNXCore50/System.Threading.Overlapped.dll",
         "lib/net46/System.Threading.Overlapped.dll",
         "lib/netcore50/System.Threading.Overlapped.dll",
@@ -15239,16 +15724,18 @@
         "ref/dotnet/ru/System.Threading.Overlapped.xml",
         "ref/dotnet/zh-hans/System.Threading.Overlapped.xml",
         "ref/dotnet/zh-hant/System.Threading.Overlapped.xml",
-        "ref/net46/System.Threading.Overlapped.dll"
+        "ref/net46/System.Threading.Overlapped.dll",
+        "system.threading.overlapped.4.0.0.nupkg.sha512",
+        "system.threading.overlapped.nuspec"
       ]
     },
     "System.Threading.Tasks/4.0.10": {
-      "sha512": "NOwJGDfk79jR0bnzosbXLVD/PdI8KzBeESoa3CofEM5v9R5EBfcI0Jyf18stx+0IYV9okmDIDxVtxq9TbnR9bQ==",
+      "sha512": "Xp40iapduDIHzD211aIJFR2PlpWxUXNDFj6qeWT4QEbNp4s3Gx3UFRQ7uVmhZIE3lRdU8z29u0omSnvWrecrig==",
       "type": "package",
       "path": "system.threading.tasks/4.0.10",
       "files": [
-        "System.Threading.Tasks.4.0.10.nupkg.sha512",
-        "System.Threading.Tasks.nuspec",
+        ".nupkg.metadata",
+        ".signature.p7s",
         "lib/DNXCore50/System.Threading.Tasks.dll",
         "lib/MonoAndroid10/_._",
         "lib/MonoTouch10/_._",
@@ -15272,31 +15759,35 @@
         "ref/net46/_._",
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
-        "runtimes/win8-aot/lib/netcore50/System.Threading.Tasks.dll"
+        "runtimes/win8-aot/lib/netcore50/System.Threading.Tasks.dll",
+        "system.threading.tasks.4.0.10.nupkg.sha512",
+        "system.threading.tasks.nuspec"
       ]
     },
     "System.Threading.Tasks.Dataflow/4.5.25": {
-      "sha512": "Y5/Dj+tYlDxHBwie7bFKp3+1uSG4vqTJRF7Zs7kaUQ3ahYClffCTxvgjrJyPclC+Le55uE7bMLgjZQVOQr3Jfg==",
+      "sha512": "PWY+E0On3Jod8LpgMsFUxO1zoWOovKzlqwrcIhfmk85vJnIKZOyaSx/Zso/pLei6QsldGPqXc7W7qYTiMzRVXg==",
       "type": "package",
       "path": "system.threading.tasks.dataflow/4.5.25",
       "files": [
-        "System.Threading.Tasks.Dataflow.4.5.25.nupkg.sha512",
-        "System.Threading.Tasks.Dataflow.nuspec",
+        ".nupkg.metadata",
+        ".signature.p7s",
         "lib/dotnet/System.Threading.Tasks.Dataflow.XML",
         "lib/dotnet/System.Threading.Tasks.Dataflow.dll",
         "lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Dataflow.XML",
         "lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Dataflow.dll",
         "lib/portable-net45+win8+wpa81/System.Threading.Tasks.Dataflow.XML",
-        "lib/portable-net45+win8+wpa81/System.Threading.Tasks.Dataflow.dll"
+        "lib/portable-net45+win8+wpa81/System.Threading.Tasks.Dataflow.dll",
+        "system.threading.tasks.dataflow.4.5.25.nupkg.sha512",
+        "system.threading.tasks.dataflow.nuspec"
       ]
     },
     "System.Threading.Tasks.Parallel/4.0.0": {
-      "sha512": "GXDhjPhF3nE4RtDia0W6JR4UMdmhOyt9ibHmsNV6GLRT4HAGqU636Teo4tqvVQOFp2R6b1ffxPXiRaoqtzGxuA==",
+      "sha512": "L14WJt5/KbyGIj6rSGvXvwvbEhQAMR0Sd4V9Rua3I/V5/DjWgDO7KWCjZEn/3wg58T5Zu0IuW43GuS76gr5aKQ==",
       "type": "package",
       "path": "system.threading.tasks.parallel/4.0.0",
       "files": [
-        "System.Threading.Tasks.Parallel.4.0.0.nupkg.sha512",
-        "System.Threading.Tasks.Parallel.nuspec",
+        ".nupkg.metadata",
+        ".signature.p7s",
         "lib/dotnet/System.Threading.Tasks.Parallel.dll",
         "lib/net45/_._",
         "lib/netcore50/System.Threading.Tasks.Parallel.dll",
@@ -15317,16 +15808,18 @@
         "ref/netcore50/System.Threading.Tasks.Parallel.dll",
         "ref/netcore50/System.Threading.Tasks.Parallel.xml",
         "ref/win8/_._",
-        "ref/wpa81/_._"
+        "ref/wpa81/_._",
+        "system.threading.tasks.parallel.4.0.0.nupkg.sha512",
+        "system.threading.tasks.parallel.nuspec"
       ]
     },
     "System.Threading.Timer/4.0.0": {
-      "sha512": "BIdJH5/e4FnVl7TkRUiE3pWytp7OYiRUGtwUbyLewS/PhKiLepFetdtlW+FvDYOVn60Q2NMTrhHhJ51q+sVW5g==",
+      "sha512": "NiPEtbKsyNTmWx/Y6w16Ztaf6gcGfVPT+u2QHhwGXyRHzdd55vro6kH5kqOmaQqE0POyT3RM35jtMUx65xtELg==",
       "type": "package",
       "path": "system.threading.timer/4.0.0",
       "files": [
-        "System.Threading.Timer.4.0.0.nupkg.sha512",
-        "System.Threading.Timer.nuspec",
+        ".nupkg.metadata",
+        ".signature.p7s",
         "lib/DNXCore50/System.Threading.Timer.dll",
         "lib/net451/_._",
         "lib/netcore50/System.Threading.Timer.dll",
@@ -15348,16 +15841,18 @@
         "ref/netcore50/System.Threading.Timer.xml",
         "ref/win81/_._",
         "ref/wpa81/_._",
-        "runtimes/win8-aot/lib/netcore50/System.Threading.Timer.dll"
+        "runtimes/win8-aot/lib/netcore50/System.Threading.Timer.dll",
+        "system.threading.timer.4.0.0.nupkg.sha512",
+        "system.threading.timer.nuspec"
       ]
     },
     "System.Xml.ReaderWriter/4.0.10": {
-      "sha512": "VdmWWMH7otrYV7D+cviUo7XjX0jzDnD/lTGSZTlZqfIQ5PhXk85j+6P0TK9od3PnOd5ZIM+pOk01G/J+3nh9/w==",
+      "sha512": "ZgHXt3O2iI1GWIMO851Ca5etRMUO1rHaisN7nl9pCeD/seOb+A7mSI5t7S9/CFW1vUA8boKdg1+BKYZ1kmpFNQ==",
       "type": "package",
       "path": "system.xml.readerwriter/4.0.10",
       "files": [
-        "System.Xml.ReaderWriter.4.0.10.nupkg.sha512",
-        "System.Xml.ReaderWriter.nuspec",
+        ".nupkg.metadata",
+        ".signature.p7s",
         "lib/MonoAndroid10/_._",
         "lib/MonoTouch10/_._",
         "lib/dotnet/System.Xml.ReaderWriter.dll",
@@ -15379,16 +15874,18 @@
         "ref/dotnet/zh-hant/System.Xml.ReaderWriter.xml",
         "ref/net46/_._",
         "ref/xamarinios10/_._",
-        "ref/xamarinmac20/_._"
+        "ref/xamarinmac20/_._",
+        "system.xml.readerwriter.4.0.10.nupkg.sha512",
+        "system.xml.readerwriter.nuspec"
       ]
     },
     "System.Xml.XDocument/4.0.10": {
-      "sha512": "+ej0g0INnXDjpS2tDJsLO7/BjyBzC+TeBXLeoGnvRrm4AuBH9PhBjjZ1IuKWOhCkxPkFognUOKhZHS2glIOlng==",
+      "sha512": "XFqWRDj9lFUQwTjuOO5JiP4c0FDMwlOLtG52CPJj/HLjaRee/hPezdNGZ2QDdzsU1t+Zp+VGO3TWoFXsla+nXg==",
       "type": "package",
       "path": "system.xml.xdocument/4.0.10",
       "files": [
-        "System.Xml.XDocument.4.0.10.nupkg.sha512",
-        "System.Xml.XDocument.nuspec",
+        ".nupkg.metadata",
+        ".signature.p7s",
         "lib/MonoAndroid10/_._",
         "lib/MonoTouch10/_._",
         "lib/dotnet/System.Xml.XDocument.dll",
@@ -15410,16 +15907,18 @@
         "ref/dotnet/zh-hant/System.Xml.XDocument.xml",
         "ref/net46/_._",
         "ref/xamarinios10/_._",
-        "ref/xamarinmac20/_._"
+        "ref/xamarinmac20/_._",
+        "system.xml.xdocument.4.0.10.nupkg.sha512",
+        "system.xml.xdocument.nuspec"
       ]
     },
     "System.Xml.XmlDocument/4.0.0": {
-      "sha512": "H5qTx2+AXgaKE5wehU1ZYeYPFpp/rfFh69/937NvwCrDqbIkvJRmIFyKKpkoMI6gl9hGfuVizfIudVTMyowCXw==",
+      "sha512": "65Y0wI4npOOoKYB3Pc18ymgkWSqmMY9aaIylyUnOORyBfWy+pgwjrh0DA/m2NTXzXcTwOpaZn+ke4nA1lp3qdA==",
       "type": "package",
       "path": "system.xml.xmldocument/4.0.0",
       "files": [
-        "System.Xml.XmlDocument.4.0.0.nupkg.sha512",
-        "System.Xml.XmlDocument.nuspec",
+        ".nupkg.metadata",
+        ".signature.p7s",
         "lib/MonoAndroid10/_._",
         "lib/MonoTouch10/_._",
         "lib/dotnet/System.Xml.XmlDocument.dll",
@@ -15441,16 +15940,18 @@
         "ref/dotnet/zh-hant/System.Xml.XmlDocument.xml",
         "ref/net46/System.Xml.XmlDocument.dll",
         "ref/xamarinios10/_._",
-        "ref/xamarinmac20/_._"
+        "ref/xamarinmac20/_._",
+        "system.xml.xmldocument.4.0.0.nupkg.sha512",
+        "system.xml.xmldocument.nuspec"
       ]
     },
     "System.Xml.XmlSerializer/4.0.10": {
-      "sha512": "OKhE6vruk88z/hl0lmfrMvXteTASgJUagu6PT6S10i9uLbvDR3pTwB6jVgiwa2D2qtTB+eneZbS9jljhPXhTtg==",
+      "sha512": "hnfEHOzjdjPOh1kUlOghJ2N2WR6OjR6IFvUZDVOqLHwJmE6CxDYWL+uj7ScpgNN9ckl49dYWZee+LfmCm80U8w==",
       "type": "package",
       "path": "system.xml.xmlserializer/4.0.10",
       "files": [
-        "System.Xml.XmlSerializer.4.0.10.nupkg.sha512",
-        "System.Xml.XmlSerializer.nuspec",
+        ".nupkg.metadata",
+        ".signature.p7s",
         "lib/DNXCore50/System.Xml.XmlSerializer.dll",
         "lib/MonoAndroid10/_._",
         "lib/MonoTouch10/_._",
@@ -15475,12 +15976,17 @@
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
         "runtime.json",
-        "runtimes/win8-aot/lib/netcore50/System.Xml.XmlSerializer.dll"
+        "runtimes/win8-aot/lib/netcore50/System.Xml.XmlSerializer.dll",
+        "system.xml.xmlserializer.4.0.10.nupkg.sha512",
+        "system.xml.xmlserializer.nuspec"
       ]
     }
   },
   "projectFileDependencyGroups": {
     "": [
+      "Microsoft.ApplicationInsights >= 1.0.0",
+      "Microsoft.ApplicationInsights.PersistenceChannel >= 1.0.0",
+      "Microsoft.ApplicationInsights.WindowsApps >= 1.0.0",
       "Microsoft.NETCore.UniversalWindowsPlatform >= 5.0.0"
     ],
     "UAP,Version=v10.0": []
@@ -15488,6 +15994,6 @@
   "tools": {},
   "projectFileToolGroups": {},
   "packageFolders": {
-    "C:\\Users\\Projekte\\.nuget\\packages\\": {}
+    "C:\\Users\\Chris\\.nuget\\packages\\": {}
   }
 }
